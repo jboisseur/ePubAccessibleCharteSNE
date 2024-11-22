@@ -1,0 +1,32 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Authors"
+url = "authors/"
+weight = 2
+
+[[main]]
+name = "Rules"
+url = "rules/"
+weight = 3
+
+[[main]]
+# parent = "Pages"
+name = "Categories"
+url = "categories/"
+
+[[main]]
+# parent = "Pages"
+name = "Tags"
+url = "tags/"
