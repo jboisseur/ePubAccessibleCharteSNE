@@ -1,0 +1,111 @@
+http://diagramcenter.org/table-of-contents-2.html -> HTTP 403
+http://kb.daisy.org/publishing/docs/html/ -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#access-002 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-001 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-002 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-003 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-004 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-005 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-006 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-007 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-001 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-002 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-003 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-004 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sec-wcag-general -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-002 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-003 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#text-001 -> OK
+http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#titles-001 -> OK
+https://accessibilite.numerique.gouv.fr/ -> OK
+https://daisy.github.io/ace/ -> OK
+https://daisy.org/about-us/membership/full-members/ -> HTTP 403
+https://daisy.org/about-us/membership/inclusive-publishing-partners/ -> HTTP 403
+https://daisy.org/about-us/membership/joining-daisy/ -> HTTP 403
+https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content -> OK
+https://fr.wikipedia.org/wiki/ISO_3166-1 -> OK
+https://github.com/w3c/epubcheck -> OK
+https://github.com/w3c/epubcheck/wiki/Download -> OK
+https://github.com/w3c/epubcheck/wiki/Epubcheck-Development-Update-and-Maintenance-Request-for-Proposal -> OK
+https://github.com/w3c/epubcheck/wiki/Running -> OK
+https://idpf.github.io/epub-guides/epub-aria-authoring/ -> OK
+https://idpf.github.io/epub-guides/epub-aria-authoring// -> OK
+https://idpf.github.io/epub-vocabs/structure/ -> OK
+https://idpf.org/epub/a11y/accessibility.html -> OK
+https://idpf.org/epub/a11y/accessibility.html#sec-acc-pub-wcag -> OK
+https://idpf.org/epub/a11y/accessibility.html#sec-conf-reporting -> OK
+https://idpf.org/epub/a11y/accessibility.html#sec-rel-wcag -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#access-002 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-001 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-002 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-003 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-004 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-005 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-006 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#meta-007 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#page-001 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#page-002 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#page-003 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#page-004 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#sec-wcag-general -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#sec-wcag-titles -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#sem-001 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#sem-002 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#sem-003 -> OK
+https://idpf.org/epub/a11y/techniques/techniques.html#text-001 -> OK
+https://idpf.org/epub/profiles/edu/structure/ -> OK
+https://idpf.org/epub/profiles/edu/structure// -> OK
+https://inclusivepublishing.org/tag/smart -> HTTP 301
+https://inclusivepublishing.org/tag/smart/ -> OK
+https://inclusivepublishing.org/toolbox/accessibility-checker -> HTTP 301
+https://inclusivepublishing.org/toolbox/accessibility-checker/getting-started/#installation -> OK
+https://inclusivepublishing.org/toolbox/accessibility-checker/getting-started/#usage -> OK
+https://themes.3rdwavemedia.com -> OK
+https://unicode.org/emoji/charts/full-emoji-list.html -> OK
+https://www.braillenet.org/decrire-images-adaptation-francaise-guide-image-description-guidelines-diagram-center -> Erreur (HTTPSConnectionPool(host='www.braillenet.org', port=443): Max retries exceeded with url: /decrire-images-adaptation-francaise-guide-image-description-guidelines-diagram-center (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025B2F777D90>: Failed to resolve 'www.braillenet.org' ([Errno 11002] getaddrinfo failed)")))
+https://www.deque.com/axe/ -> OK
+https://www.ietf.org/rfc/rfc3066.txt -> OK
+https://www.loc.gov/standards/iso639-2/php/code_list.php -> OK
+https://www.sne.fr/numerique-2/ressources-pour-la-production-de-livres-nativement-accessibles/ -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#consistent-behavior -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation-sequence -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#ensure-compat -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#meaning -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#seizure -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-equiv -> OK
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast -> OK
+https://www.w3.org/TR/SVG11/ -> OK
+https://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html -> OK
+https://www.w3.org/TR/WCAG20/ -> OK
+https://www.w3.org/TR/WCAG21/ -> OK
+https://www.w3.org/TR/WCAG21/#text-spacing -> OK
+https://www.w3.org/TR/dpub-WAI-ARIA-1.0/#roles -> HTTP 404
+https://www.w3.org/TR/dpub-aria-1.0/ -> OK
+https://www.w3.org/TR/dpub-aria-1.0/#roles -> OK
+https://www.w3.org/TR/epub-a11y-tech-11/ -> OK
+https://www.w3.org/TR/html52/textlevel-semantics.html#the-cite-element -> HTTP 301
+https://www.w3.org/TR/wai-aria-1.1/ -> OK
+https://www.w3.org/TR/wai-aria-1.1/#role_definitions -> OK
+https://www.w3.org/TR/wai-aria-1.1/#usage_intro -> OK
+https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/Overview.html -> OK
+https://www.w3.org/Translations/WCAG20-fr/ -> OK
+https://www.w3.org/Translations/WCAG20-fr/#consistent-behavior -> OK
+https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation -> OK
+https://www.w3.org/Translations/WCAG20-fr/#ensure-compat -> OK
+https://www.w3.org/Translations/WCAG20-fr/#meaning -> OK
+https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms -> OK
+https://www.w3.org/Translations/WCAG20-fr/#seizure -> OK
+https://www.w3.org/Translations/WCAG20-fr/#text-equiv -> OK
+https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast -> OK
+https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1 -> HTTP 301
+https://www.w3.org/publishing/epub3/epub-changes.html -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-contentdocs.html -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-ocf.html%20 -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-overview.html -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-packages.html%20 -> HTTP 404
+https://www.w3.org/submissions/epub-a11y/ -> OK

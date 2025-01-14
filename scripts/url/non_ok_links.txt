@@ -1,0 +1,15 @@
+http://diagramcenter.org/table-of-contents-2.html -> HTTP 403
+https://daisy.org/about-us/membership/full-members/ -> HTTP 403
+https://daisy.org/about-us/membership/inclusive-publishing-partners/ -> HTTP 403
+https://daisy.org/about-us/membership/joining-daisy/ -> HTTP 403
+https://inclusivepublishing.org/tag/smart -> HTTP 301
+https://inclusivepublishing.org/toolbox/accessibility-checker -> HTTP 301
+https://www.braillenet.org/decrire-images-adaptation-francaise-guide-image-description-guidelines-diagram-center -> Erreur (HTTPSConnectionPool(host='www.braillenet.org', port=443): Max retries exceeded with url: /decrire-images-adaptation-francaise-guide-image-description-guidelines-diagram-center (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025B2F777D90>: Failed to resolve 'www.braillenet.org' ([Errno 11002] getaddrinfo failed)")))
+https://www.w3.org/TR/dpub-WAI-ARIA-1.0/#roles -> HTTP 404
+https://www.w3.org/TR/html52/textlevel-semantics.html#the-cite-element -> HTTP 301
+https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1 -> HTTP 301
+https://www.w3.org/publishing/epub3/epub-changes.html -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-contentdocs.html -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-ocf.html%20 -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-overview.html -> HTTP 404
+https://www.w3.org/publishing/epub3/epub-packages.html%20 -> HTTP 404
