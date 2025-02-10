@@ -1,0 +1,267 @@
+﻿Libellé;Lien;État
+directive européenne;https://www.lina25.fr/pages/loi.html;OK
+autres ressources;https://www.sne.fr/numerique-2/ressources-pour-la-production-de-livres-nativement-accessibles/;OK
+EPUB Accessibility 1.0;https://idpf.org/epub/a11y/accessibility.html;OK
+EPUB Accessibility techniques 1.0;https://idpf.org/epub/a11y/techniques/techniques.html;OK
+WCAG2.0;https://www.w3.org/TR/WCAG20/;OK
+2.1;https://www.w3.org/TR/WCAG21/;OK
+WAI-ARIA1.1;https://www.w3.org/TR/wai-aria-1.1/;OK
+Digital Publishing WAI-ARIA Module 1.0;https://www.w3.org/TR/dpub-aria-1.0/;OK
+RGAA;https://accessibilite.numerique.gouv.fr/;OK
+4.2 Relationship to WCAG;https://idpf.org/epub/a11y/accessibility.html#sec-rel-wcag;OK
+4 Techniques WCAG / 4.1 Guide général;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sec-wcag-general;OK
+4 WCAG Techniques / 4.1 General Guidance;https://idpf.org/epub/a11y/techniques/techniques.html#sec-wcag-general;OK
+SEM-002 : Ne pas répéter la sémantique au sein du contenu fractionné;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-002;OK
+SEM-002: Do not repeat semantics across chunked content;https://idpf.org/epub/a11y/techniques/techniques.html#sem-002;OK
+4 Techniques WCAG / 4.1 Guide général;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sec-wcag-general;OK
+4 WCAG Techniques / 4.1 General Guidance;https://idpf.org/epub/a11y/techniques/techniques.html#sec-wcag-general;OK
+Web;https://www.w3.org/TR/wai-aria-1.1/#role_definitions;OK
+DPUB;https://www.w3.org/TR/dpub-aria-1.0/#roles;OK
+table de correspondance;https://idpf.github.io/epub-guides/epub-aria-authoring//;OK
+ACCESS-002 : Fournir plusieurs moyens pour accéder au contenu;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#access-002;OK
+ACCESS-002: Provide multiple ways to access the content;https://idpf.org/epub/a11y/techniques/techniques.html#access-002;OK
+PAGE-003 : Fournir une liste de pages;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-003;OK
+PAGE-003: Provide a page list;https://idpf.org/epub/a11y/techniques/techniques.html#page-003;OK
+SEM-003 : Inclure des repères EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-003;OK
+SEM-003: Include EPUB landmarks;https://idpf.org/epub/a11y/techniques/techniques.html#sem-003;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.4.5 Accès multiples;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.5 Multiple Ways;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+ACCESS-002 : Fournir plusieurs moyens pour accéder au contenu;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#access-002;OK
+ACCESS-002: Provide multiple ways to access the content;https://idpf.org/epub/a11y/techniques/techniques.html#access-002;OK
+SEM-001 : Inclure la sémantique WAI-ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include WAI-ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.4.5 Accès multiples;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.5 Multiple Ways;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+ACCESS-002 : Fournir plusieurs moyens pour accéder au contenu;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#access-002;OK
+ACCESS-002: Provide multiple ways to access the content;https://idpf.org/epub/a11y/techniques/techniques.html#access-002;OK
+PAGE-003 : Fournir une liste de pages;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-003;OK
+PAGE-003: Provide a page list;https://idpf.org/epub/a11y/techniques/techniques.html#page-003;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.4.5 Accès multiples;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.5 Multiple Ways;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.4.5 Accès multiples;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.5 Multiple Ways;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+4.6.1 TEXT-001 - Utiliser Unicode pour le contenu textuel;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#text-001;OK
+4.6.1 TEXT-001 - Use Unicode for text content;https://idpf.org/epub/a11y/techniques/techniques.html#text-001;OK
+1.4.5 Texte sous forme d’image;https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.5 Images of Text;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+TITLES-001 : Inclure les titres de publication et de document;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#titles-001;OK
+TITLES-001: Include publication and document titles;https://idpf.org/epub/a11y/techniques/techniques.html#sec-wcag-titles;OK
+2.4.2 Titre de page;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.2 Page Titled;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+2.4.6 En-têtes et étiquettes;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.6 Headings and Labels;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+ISO 639-1;https://www.loc.gov/standards/iso639-2/php/code_list.php;OK
+ISO_3166-1;https://fr.wikipedia.org/wiki/ISO_3166-1;OK
+ISO_3166-1;https://fr.wikipedia.org/wiki/ISO_3166-1;OK
+[eltBlock];https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content;OK
+RFC 3066;https://www.ietf.org/rfc/rfc3066.txt;OK
+ISO 639-1;https://www.loc.gov/standards/iso639-2/php/code_list.php;OK
+ISO_3166-1;https://fr.wikipedia.org/wiki/ISO_3166-1;OK
+3.1.1 Langue de la page;https://www.w3.org/Translations/WCAG20-fr/#meaning;OK
+3.1.1 Language of Page;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#meaning;OK
+3.1.2 Langue d’un passage;https://www.w3.org/Translations/WCAG20-fr/#meaning;OK
+3.1.2 Language of Parts;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#meaning;OK
+EPUB;https://idpf.org/epub/profiles/edu/structure//;OK
+web;https://www.w3.org/TR/wai-aria-1.1/#role_definitions;OK
+DPUB;https://www.w3.org/TR/dpub-WAI-ARIA-1.0/#roles;HTTP 404
+table de correspondance;https://idpf.github.io/epub-guides/epub-aria-authoring//;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.1.1 Contenu non textuel;https://www.w3.org/Translations/WCAG20-fr/#text-equiv;OK
+1.1.1 Non-text Content;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-equiv;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.1.1 Contenu non textuel;https://www.w3.org/Translations/WCAG20-fr/#text-equiv;OK
+1.1.1 Non-text Content;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-equiv;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.4.5 Texte sous forme d’image;https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.5 Images of Text;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+1.4.9 Texte sous forme d’image (sans exception);https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.9 Images of Text (No Exception);https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.4.1 Contourner des blocs;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.1 Bypass Blocks;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+2.4.6 En-têtes et étiquettes;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.6 Headings and Labels;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+2.4.10 En-têtes de section;https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.10 Section Headings;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+3.2.3 Navigation cohérente;https://www.w3.org/Translations/WCAG20-fr/#consistent-behavior;OK
+3.2.3 Consistent Navigation;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#consistent-behavior;OK
+3.2.4 Identification cohérente;https://www.w3.org/Translations/WCAG20-fr/#consistent-behavior;OK
+3.2.4 Consistent Identification;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#consistent-behavior;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+3.1.3 Mots rares;https://www.w3.org/Translations/WCAG20-fr/#meaning;OK
+3.1.3 Unusual Words;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#meaning;OK
+3.1.4 Abréviations;https://www.w3.org/Translations/WCAG20-fr/#meaning;OK
+3.1.4 Abbreviations;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#meaning;OK
+(source);https://www.w3.org/TR/html52/textlevel-semantics.html#the-cite-element;HTTP 301
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+SEM-001 : Inclure la sémantique WAI-ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include WAI-ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.1 ARIA Roles;https://www.w3.org/TR/wai-aria-1.1/#usage_intro;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+critère 1.4.12 Text spacing;https://www.w3.org/TR/WCAG21/#text-spacing;OK
+[eltBlock];https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content;OK
+[eltBlock];https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content;OK
+1.1.1 Contenu non textuel;https://www.w3.org/Translations/WCAG20-fr/#text-equiv;OK
+1.1.1 Non-text Content;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-equiv;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+SEM-001 : Inclure la sémantique ARIA et EPUB;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#sem-001;OK
+SEM-001: Include ARIA and EPUB semantics;https://idpf.org/epub/a11y/techniques/techniques.html#sem-001;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+2.4.4 Fonction du lien (selon le contexte);https://www.w3.org/Translations/WCAG20-fr/#navigation-mechanisms;OK
+2.4.4 Link Purpose (In Context);https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms;OK
+PAGE-001 : Fournir des marques de saut de page;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-001;OK
+PAGE-001 : Provide page break markers;https://idpf.org/epub/a11y/techniques/techniques.html#page-001;OK
+PAGE-002 : Identifier les pages pour la synthèse vocale;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-002;OK
+PAGE-002 : Identify pages in audio playback;https://idpf.org/epub/a11y/techniques/techniques.html#page-002;OK
+PAGE-003 : Fournir une liste de pages;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-003;OK
+PAGE-003 : Provide a page list;https://idpf.org/epub/a11y/techniques/techniques.html#page-003;OK
+PAGE-004 : Identifier la source de pagination;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-004;OK
+PAGE-004 : Identify the pagination source;https://idpf.org/epub/a11y/techniques/techniques.html#page-004;OK
+1.3.1 Information et relations;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.1 Info and Relationships;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.3.2 Ordre séquentiel logique;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.2 Meaningful Sequence;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation-sequence;OK
+table Unicode;https://unicode.org/emoji/charts/full-emoji-list.html;OK
+1.1.1 Contenu non textuel;https://www.w3.org/Translations/WCAG20-fr/#text-equiv;OK
+1.1.1 Non-text Content;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#text-equiv;OK
+1.3.3 Caractéristiques sensorielles;https://www.w3.org/Translations/WCAG20-fr/#content-structure-separation;OK
+1.3.3 Sensory Characteristics;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#content-structure-separation;OK
+1.4.5 Texte sous forme d’image;https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.5 Images of Text;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+1.4.9 Texte sous forme d’image (sans exception);https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.9 Images of Text (No Exception);https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+2.3.1 Pas plus de trois flashs ou sous le seuil critique;https://www.w3.org/Translations/WCAG20-fr/#seizure;OK
+2.3.1 Three Flashes or Below Threshold;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#seizure;OK
+2.3.2 Trois flashs;https://www.w3.org/Translations/WCAG20-fr/#seizure;OK
+2.3.2 Three Flashes;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#seizure;OK
+1.4.3 Contraste (minimum);https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.3 Contrast (Minimum);https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+1.4.4 Redimensionnement du texte;https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.4 Resize text;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+1.4.6 Contraste (amélioré);https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.6 Contrast (Enhanced);https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+1.4.8 Présentation visuelle;https://www.w3.org/Translations/WCAG20-fr/#visual-audio-contrast;OK
+1.4.8 Visual Presentation;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast;OK
+4.3 WCAG Conformance;https://idpf.org/epub/a11y/accessibility.html#sec-acc-pub-wcag;OK
+4.5 Conformance Reporting;https://idpf.org/epub/a11y/accessibility.html#sec-conf-reporting;OK
+META-001 : Identifier les modes d'accès primaires;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-001;OK
+META-001: Identify primary access modes;https://idpf.org/epub/a11y/techniques/techniques.html#meta-001;OK
+META-002 : Identifier des modes d'accès suffisants;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-002;OK
+META-002: Identify sufficient access modes;https://idpf.org/epub/a11y/techniques/techniques.html#meta-002;OK
+META-003 : Identifier les caractéristiques d'accessibilité;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-003;OK
+META-003: Identify accessibility features;https://idpf.org/epub/a11y/techniques/techniques.html#meta-003;OK
+META-004 : Identifier les risques d'accessibilité;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-004;OK
+META-004: Identify accessibility hazards;https://idpf.org/epub/a11y/techniques/techniques.html#meta-004;OK
+META-005 : Inclure un résumé d'accessibilité;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-005;OK
+META-005: Include an accessibility summary;https://idpf.org/epub/a11y/techniques/techniques.html#meta-005;OK
+META-006 : Identifier la conformité ARIA;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-006;OK
+META-006: Identify ARIA Conformance;https://idpf.org/epub/a11y/techniques/techniques.html#meta-006;OK
+META-007 : Identifier les méthodes de contrôle de saisie;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-007;OK
+META-007: Identify Input Control Methods;https://idpf.org/epub/a11y/techniques/techniques.html#meta-007;OK
+META-003 : Identifier les caractéristiques d'accessibilité;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#meta-003;OK
+META-003: Identify accessibility features;https://idpf.org/epub/a11y/techniques/techniques.html#meta-003;OK
+PAGE-004 : Identifier la source de pagination;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm#page-004;OK
+PAGE-004: Identify the pagination source;https://idpf.org/epub/a11y/techniques/techniques.html#page-004;OK
+EPUBCheck;https://github.com/w3c/epubcheck/wiki/Epubcheck-Development-Update-and-Maintenance-Request-for-Proposal;OK
+Ace;https://daisy.github.io/ace/;OK
+EPUBCheck;https://github.com/w3c/epubcheck/wiki/Epubcheck-Development-Update-and-Maintenance-Request-for-Proposal;OK
+Batch;https://github.com/w3c/epubcheck/wiki/Running;OK
+Ace;https://daisy.github.io/ace/;OK
+Batch;https://inclusivepublishing.org/toolbox/accessibility-checker/getting-started/#usage;OK
+IDPF/EPUBCheck;https://github.com/w3c/epubcheck;OK
+Downloading EpubCheck;https://github.com/w3c/epubcheck/wiki/Download;OK
+Running;https://github.com/w3c/epubcheck/wiki/Running;OK
+Ace by DAISY, Accessibility Checking Tool;https://inclusivepublishing.org/toolbox/accessibility-checker;HTTP 301
+Getting Started with Ace, by DAISY;https://github.com/w3c/epubcheck/wiki/Download;OK
+Installation;https://inclusivepublishing.org/toolbox/accessibility-checker/getting-started/#installation;OK
+Usage;https://inclusivepublishing.org/toolbox/accessibility-checker/getting-started/#usage;OK
+AXE;https://www.deque.com/axe/;OK
+4.1.1 Analyse syntaxique;https://www.w3.org/Translations/WCAG20-fr/#ensure-compat;OK
+4.1.1 Parsing;https://www.w3.org/TR/2008/REC-WCAG20-20081211/#ensure-compat;OK
+SMART;https://inclusivepublishing.org/tag/smart;HTTP 301
+full members;https://daisy.org/about-us/membership/full-members/;HTTP 403
+Inclusive Publishing Partners;https://daisy.org/about-us/membership/inclusive-publishing-partners/;HTTP 403
+coûts d’adhésion relativement raisonnables;https://daisy.org/about-us/membership/joining-daisy/;HTTP 403
+EPUB Accessibility;https://idpf.org/epub/a11y/accessibility.html;OK
+EPUB Accessibility techniques - version d’origine en anglais;https://idpf.org/epub/a11y/techniques/techniques.html;OK
+EPUB Accessibility techniques - version traduite en français;http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm;OK
+EPUB Accessibility Techniques 1.1 - W3C Décembre 2021;https://www.w3.org/TR/epub-a11y-tech-11/;OK
+Vocabulaire epub:type;https://idpf.org/epub/profiles/edu/structure/;OK
+EPUB Structural Semantics to ARIA Roles Mapping Guide;https://idpf.github.io/epub-guides/epub-aria-authoring/;OK
+EPUB Accessibility;https://www.w3.org/submissions/epub-a11y/;OK
+How to Meet WCAG 2.1 - Quick reference;https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1;HTTP 301
+Understanding WCAG 2.0 - A guide to understanding and implementing Web Content Accessibility Guidelines 2.0;https://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html;OK
+Introduction à Comprendre les WCAG 2.0;https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/Overview.html;OK
+Web Content Accessibility Guidelines (WCAG) 2.1  – version anglaise;https://www.w3.org/TR/WCAG21/;OK
+Règles pour l'accessibilité des contenus Web (WCAG) 2.0 – version française;https://www.w3.org/Translations/WCAG20-fr/;OK
+Accessible Rich Internet Applications (WAI-ARIA) 1.1;https://www.w3.org/TR/wai-aria-1.1/;OK
+Rôles ARIA pour le web;https://www.w3.org/TR/wai-aria-1.1/#role_definitions;OK
+Rôles ARIA DPUB (Digital publication);https://www.w3.org/TR/dpub-aria-1.0/#roles;OK
+Accessible Publishing Knowledge Base - HTML;http://kb.daisy.org/publishing/docs/html/;OK
+Ressources pour la production de livres nativement accessibles – SNE – Commission numérique – groupe normes et standards;https://www.sne.fr/numerique-2/ressources-pour-la-production-de-livres-nativement-accessibles/;OK
+[EPUB 3Overview] EPUB 3 Overview;https://www.w3.org/publishing/epub3/epub-overview.html;HTTP 404
+[ContentDocs32] EPUB Content Documents 3.2;https://www.w3.org/publishing/epub3/epub-contentdocs.html;HTTP 404
+[OCF32] EPUB Open Container Format (OCF) 3.2;https://www.w3.org/publishing/epub3/epub-ocf.html%20;HTTP 404
+[Packages32] EPUB Packages 3.2;https://www.w3.org/publishing/epub3/epub-packages.html%20;HTTP 404
+[SVG] Scalable Vector Graphics (SVG) 1.1 (Second Edition);https://www.w3.org/TR/SVG11/;OK
+[StructureVocab] EPUB 3 Structural Semantics Vocabulary;https://idpf.github.io/epub-vocabs/structure/;OK
+[EPUB 32Changes] EPUB 3.2 Changes;https://www.w3.org/publishing/epub3/epub-changes.html;HTTP 404
+EPUBCheck;https://github.com/w3c/epubcheck/wiki/Epubcheck-Development-Update-and-Maintenance-Request-for-Proposal;OK
+Ace;https://daisy.github.io/ace/;OK
+SMART;https://inclusivepublishing.org/tag/smart/;OK
+Image Description Guidelines - DIAGRAM Center;http://diagramcenter.org/table-of-contents-2.html;HTTP 403
+Comment décrire les images ? Adaptation française du Guide « Image Description Guidelines » du DIAGRAM Center;https://www.braillenet.org/decrire-images-adaptation-francaise-guide-image-description-guidelines-diagram-center;"Erreur (HTTPSConnectionPool(host='www.braillenet.org', port=443): Max retries exceeded with url: /decrire-images-adaptation-francaise-guide-image-description-guidelines-diagram-center (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.braillenet.org'. (_ssl.c:1020)""))))"
+Xiaoying Riley;https://themes.3rdwavemedia.com;OK
