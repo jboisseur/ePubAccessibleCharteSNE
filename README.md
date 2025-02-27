@@ -17,7 +17,7 @@ Le fichier HTML est organisé de manière thématique et contient les sections p
 
 ### **Format EPUB**
 - Détaille les caractéristiques techniques et les exigences de structuration pour les fichiers EPUB :
-  - Version supportée : EPUB 3.0 et 3.2.
+  - Version supportée : EPUB 3.0 et +.
   - Navigation, sommaire, et liste de pages.
   - Structuration XHTML et balisage accessible.
 
@@ -32,9 +32,9 @@ Le fichier HTML est organisé de manière thématique et contient les sections p
 ## Points Clés
 
 1. **Standards Couverts** :
-   - WCAG 2.0/2.1 (niveaux A, AA, AAA).
-   - EPUB Accessibility 1.0.
-   - WAI-ARIA 1.1.
+   - WCAG 2.0 et + (niveaux A, AA). Il est recommandé de s'appuyer sur la dernière version en cours.
+   - EPUB Accessibility 1.1.
+   - WAI-ARIA 1.2.
 
 2. **Exigences Techniques** :
    - Balises et attributs XHTML spécifiques pour les landmarks, sommaires, et éléments interactifs.
@@ -54,9 +54,10 @@ Ce fichier peut être utilisé pour :
 ---
 
 ## Ressources
-- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
-- [EPUB Accessibility 1.0](https://idpf.org/epub/a11y/accessibility.html)
-- [WAI-ARIA 1.1](https://www.w3.org/TR/wai-aria-1.1/)
+- [EPUB 3.3](https://www.w3.org/TR/epub-33/)
+- [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/)
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+- [WAI-ARIA](https://www.w3.org/TR/wai-aria/)
 - [Outils de contrôle qualité SNE](https://www.sne.fr/numerique-2/ressources-pour-la-production-de-livres-nativement-accessibles/)
 
 ---
