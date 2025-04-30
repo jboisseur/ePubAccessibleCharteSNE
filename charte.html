@@ -1004,17 +1004,11 @@
                         <section class="docs-section3" id="charte-3-5-2">
                             <h3 class="section-heading3">Head</h3>
                             <p>Chaque document XHTML doit renseigner une balise &lt;title&gt; dans son &lt;head&gt;. Ce titre est utilisé par les technologies d’assistance pour permettre à leurs usagers de déterminer s’ils veulent lire la page ou la passer.</p>
-								
-							   
-																																																																																																																																																																																																																																																																																																																																										  
-								
                             <p>Les WCAG stipulent  que le &lt;title&gt; du &lt;head&gt; doit décrire le contenu du document lui-même et pas juste celui du site web auquel appartient le document. Ainsi, dans le contexte des EPUB, la valeur du &lt;title&gt; est la même que celle du &lt;h*&gt; du document (ex. : "Chapitre 1"). Dans le cas de parties volumineuses découpées en plusieurs documents, la valeur du &lt;title&gt; est le titre de la hiérarchie qui a subi le découpage - en allant du particulier au général (ex. : "Chapitre 1 – Partie 2"). Dans le cas des documents qui n’ont pas de headings &lt;h*&gt;&nbsp;:</p>
-																								  
-                                <ul>
-                                <li>si ce document est pointé par une rubrique de sommaire, alors reprendre le libellé de la rubrique de sommaire qui pointe dessus ;</li>
-                                <li>sinon, créer un titre factice « suite de la page précédente ».</li>
-                                </ul>
-                            </p>
+							<ul>
+                              <li>si ce document est pointé par une rubrique de sommaire, alors reprendre le libellé de la rubrique de sommaire qui pointe dessus ;</li>
+                              <li>sinon, créer un titre factice « suite de la page précédente ».</li>
+                            </ul>
 							<p><strong>Note&nbsp;:</strong> ne pas mettre le titre de la publication car il ne varie pas, ne permet pas de discriminer les documents et il parasiterait les technologies d’assistance en répétant constamment une même information.</p>
                             <p>
                                 <div class="docs-code-block">
@@ -1066,8 +1060,7 @@
                         <ul><li>dans les métadonnées de la publication, pour permettre au public empêché de vérifier qu’il dispose bien d’un moteur de synthèse vocale ou de transcription braille pour la langue de ce titre ;</li>
                         <li>dans les contenus éditoriaux pour guider globalement ou finement ces technologies d’assistance.</li></ul>
                         <p>Le signalement de la langue est modélisé de la manière suivante.</p>
-						   
-                            <div class="table-responsive my-4">
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1126,13 +1119,11 @@
                                     </tbody>
                                 </table>
                                 </div>
-							
-                        <p>Pour la valeur de langue, on indique :</p>
+						<p>Pour la valeur de langue, on indique :</p>
                         <ul><li>la langue seule dans les métadonnées ;</li>
                         <li>la langue dite « <mark data-bs-toggle="tooltip" data-bs-title="Au sens de « région du monde ».">régionale</mark> »  dans les contenus éditoriaux, qui permet de préciser l’accent souhaité.</li></ul>
                         <p>Pour cela, on utilise le standard <a href="https://www.ietf.org/rfc/rfc3066.txt" class="theme-link" target="_blank">RFC 3066</a> qui permet de donner un code de langue simple ou composite (code langue <a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" class="theme-link" target="_blank">ISO 639-1</a> sur 2 lettres minuscules + « - » + code pays <a href="https://fr.wikipedia.org/wiki/ISO_3166-1" class="theme-link" target="_blank">ISO_3166-1</a> sur 2 lettres majuscules).</p>
-						   
-                            <div class="table-responsive my-4 col-md-4 col-12">
+						<div class="table-responsive my-4 col-md-4 col-12">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1187,7 +1178,6 @@
                                     </tbody>
                                 </table>
                                 </div>
-							
                         <p>Dans les contenus éditoriaux, l’indication de langue se fait en fonction de la portée, au niveau hiérarchique pertinent le plus élevé possible.</p>
                         <h4>Exemples</h4>
                         <div class="docs-code-block">
@@ -1226,8 +1216,7 @@
                     <section class="docs-section" id="charte-3-7">
                         <h2 class="section-heading">Attributs sémantiques epub:type et rôle ARIA</h2>
                         <p>En <mark data-bs-toggle="tooltip" data-bs-title="Cela pourrait changer en EPUB 4, où seuls les rôles ARIA pourront subsister.">EPUB 3</mark>, les attributs @epub:type et @role ARIA doivent être doublés car bien que tous deux destinés aux « machines », ils n’ont pas la même vocation.</p>
-						   
-                            <div class="table-responsive my-4">
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1250,8 +1239,7 @@
                                     </tbody>
                                 </table>
                                 </div>
-							
-                        <p><strong>Note&nbsp;:</strong> la pose des rôles ARIA n’est pas limitée aux seuls contenus <mark data-bs-toggle="tooltip" data-bs-title="Leur absence sur les contenus interactifs sera par contre totalement rédhibitoire en terme d’usage.">interactifs</mark>.</p>
+						<p><strong>Note&nbsp;:</strong> la pose des rôles ARIA n’est pas limitée aux seuls contenus <mark data-bs-toggle="tooltip" data-bs-title="Leur absence sur les contenus interactifs sera par contre totalement rédhibitoire en terme d’usage.">interactifs</mark>.</p>
                         <p>Les très nombreux attributs sémantiques définis dans les formats <a href="https://www.w3.org/TR/epub-ssv-11/" class="theme-link" target="_blank">EPUB</a> et ARIA (<a href="https://www.w3.org/TR/wai-aria-1.1/#role_definitions" class="theme-link" target="_blank">web</a> et <a href="https://www.w3.org/TR/dpub-WAI-ARIA-1.0/#roles" class="theme-link" target="_blank">DPUB</a>) ne sont pas tous à renseigner. À cela plusieurs raisons&nbsp;:</p>
 						<ul>
 							<li>la <mark data-bs-toggle="tooltip" data-bs-title="Dans le cas où la sémantique est déjà portée par le texte, les attributs sémantiques seront systématiquement facultatifs. Dans le cas contraire, ils seront obligatoires si porteurs d’une information sémantique importante pour la compréhension, recommandés sinon.">redondance</mark>  avec le contenu textuel (ex. : « Préface » et @epub:type=foreword)&nbsp;;</li>
@@ -1259,9 +1247,7 @@
 							<li>l'absence, à date, d'exploitation par les systèmes de lecture et par les technologies d’assistance auxquels ils sont destinés&nbsp;.</li>
 						</ul>
                         <p>Retrouvez ci-dessous notre sélection d'attributs à renseigner pour rendre un service avéré au public. Cette liste s'appuie sur la <a href="https://www.w3.org/TR/epub-aria-authoring-11/" class="theme-link" target="_blank">table de correspondance</a> epub:type / WAI-ARIA role produite par le W3C&nbsp;:</p>
-							
-						   
-                            <div class="table-responsive my-4">
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1402,9 +1388,7 @@
                                 </table>
                                 </div>
                         <p>À cette liste s'ajoute la sélection facultative suivante, si pertinent&nbsp;:</p>
-																																																																																																														   
-						   
-                            <div class="table-responsive my-4">
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1520,9 +1504,7 @@
                                     </tbody>
                                 </table>
                                 </div>
-							
-						   
-                            <div class="table-responsive my-4">
+								<div class="table-responsive my-4">
                                 <table class="table table-bordered table-danger">
                                     <thead>
                                         <tr>
@@ -1550,8 +1532,7 @@
                                     </tbody>
                                 </table>
                                 </div>
-							
-                    </section>
+					</section>
                     <section class="docs-section" id="charte-3-8">
                         <h2 class="section-heading">Page de couverture</h2>
                         <p><img class="figure-img img-fluid shadow rounded" src="assets/charte/content_opf3.png" alt="Schémas représentant les fichiers dans l'epub pour la couv" /></p>
