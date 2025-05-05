@@ -1535,7 +1535,7 @@
 					</section>
                     <section class="docs-section" id="charte-3-8">
                         <h2 class="section-heading">Page de couverture</h2>
-                        <p><img class="figure-img img-fluid shadow rounded" src="assets/charte/content_opf3.png" alt="Schémas représentant les fichiers dans l'epub pour la couv" /></p>
+                        <p><img class="figure-img img-fluid shadow rounded" src="assets/charte/content_opf3.png" alt="Représentation schématique des liens entre les fichiers pour la couverture : content.opf déclare cover.xhtml et cover.jpg, cover.xhtml contient cover.jpg" /></p>
                         <p>
                             <div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
@@ -1562,8 +1562,7 @@
                                 </table>
                                 </div>
                         </p>
-                        <p>La définition de la page de couverture dans le fichier OPF ne change pas.</p><p>
-                        Le balisage de la page de couverture est sémantique. Il utilise les balises HTML5 (section, figure, img) et renseigne les attributs @epub:type et @role ARIA (si équivalent). La page de couverture a une valeur @epub:type dédiée (cover).</p><p>
+			<p>Le balisage de la page de couverture est sémantique. Il utilise les balises HTML5 (section, figure, img) et renseigne les attributs @epub:type et @role ARIA, si équivalent. La page de couverture a une valeur @epub:type dédiée, cover.</p><p>
                         L’image de couverture appelée par la page de couverture doit comporter un texte alternatif qui doit débuter nécessairement par un indicateur précisant qu’il s’agit de la couverture, comme par exemple « <strong>Image de couverture</strong> ». Si la page de titre qui la suit immédiatement indique des informations similaires, cet indicateur peut être suffisant, afin d’éviter que les technologies d’assistance ne les répètent inutilement.
                         </p>
                         <p>
@@ -1693,7 +1692,7 @@
                                 <li>soit sous forme d’<mark data-bs-toggle="tooltip" data-bs-title="Cette solution est parfois préférée pour forcer la mise en page de la page de titre sur toutes les tailles d’écran et toutes les tailles de caractères.">image de texte</mark> (avec texte alternatif obligatoire) .</li>
                             </ul>
                         </p>
-                        <p>Son balisage est sémantique. Il utilise les balises HTML5 (cf. section) et renseigne les attributs @epub:type et @role ARIA (si équivalent). La page de titre fait partie de la « malle avant » de la publication (cf. frontmatter). Cette information doit si possible être préservée. Mais ce n’est pas une obligation.
+                        <p>Son balisage est sémantique. Il utilise les balises HTML5 (cf. section) et renseigne les attributs @epub:type et @role ARIA, si équivalent. La page de titre fait partie de la « malle avant » de la publication (cf. frontmatter). Cette information doit si possible être préservée. Mais ce n’est pas une obligation.
                         </p>
                         <p>
                             <div class="table-responsive my-4">
@@ -1793,7 +1792,7 @@
                                             <td>AA</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="https://www.w3.org/TR/WCAG22/#images-of-text" class="theme-link" target="_blank">1.4.9 Images of Text (No Exception)</a></td>
+                                            <td><a href="https://www.w3.org/TR/WCAG22/#images-of-text-no-exception" class="theme-link" target="_blank">1.4.9 Images of Text (No Exception)</a></td>
                                             <td>AAA</td>
                                         </tr>
                                         <tr>
