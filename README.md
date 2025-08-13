@@ -64,4 +64,3 @@ Ce fichier peut être utilisé pour :
 
 ## Licence
 Ce document est une ressource du SNE. Contactez l'organisation pour toute question ou suggestion d'amélioration.
-
