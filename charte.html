@@ -174,12 +174,12 @@
                             </section>
                             <section class="docs-section" id="charte-1-4">
                                 <h2 class="section-heading">Évolution du document</h2>
-                                <p xmlns:cc="http://creativecommons.org/ns#" >Cette charte est sous licence Creative Commons : <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p> 
+                                <p>Cette charte est sous licence Creative Commons : <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p> 
                                 <p>Historique du document</p>
                                 <ul>
-                                    <li><a href="https://www.sne.fr/document/charte-technique-pour-la-production-depubs-textuels-nativement-accessibles/" class="theme-link" target="_blank">v1.0 - <time datetime="2022-12-01">12/2022</time></a></li>
-                                    <li><a href="https://www.sne.fr/document/charte-technique-pour-la-production-depubs-textuels-nativement-accessibles-v-1-2/" class="theme-link" target="_blank">v1.2 - <time datetime="2021-06-01">06/2021</a></li>
-                                    <li>v1.3 - <time datetime="2025-03-01">03/2025</time></li>
+                                    <li><a href="https://www.sne.fr/document/charte-technique-pour-la-production-depubs-textuels-nativement-accessibles/" class="theme-link" target="_blank">v1.0 - <time datetime="2020-12-01">12/2020</time></a></li>
+                                    <li><a href="https://www.sne.fr/document/charte-technique-pour-la-production-depubs-textuels-nativement-accessibles-v-1-2/" class="theme-link" target="_blank">v1.2 - <time datetime="2021-06-01">06/2021</time></a></li>
+                                    <li>v1.3 - <time datetime="2025-05-01">05/2025</time></li>
                                 </ul>
                     </section>
                 </article>
@@ -927,7 +927,8 @@
                                     </code></pre>
                                 </div>
                             </p>
-                            <p>De plus, TOUS les caractères spéciaux (<mark data-bs-toggle="tooltip" data-bs-title="Œ, æ en français typiquement">ligatures</mark> ainsi que caractères appartenant à des alphabets non <mark data-bs-toggle="tooltip" data-bs-title="Alphabet grec, phonétique international, caractères mathématiques, émoticônes, etc">latins</mark> ) doivent être modélisés par le bon code caractère Unicode (directement ou via entité caractère correspondante). Il est interdit de les modéliser par surcharge de caractère <mark data-bs-toggle="tooltip" data-bs-title="Pratique très courante dans le papier.">ASCII</mark>  ou par substitution d’une image au dit <mark data-bs-toggle="tooltip" data-bs-title="En d’autres termes, il s’agit d’un glyphe géré par une image posée en dur dans le contenu, plutôt que par un glyphe géré dans/par la police.">caractère</mark>. Cela perturberait les technologies d’assistance (respectivement altération de mot ou coupure de mot pour la synthèse vocale et la traduction braille), ainsi que l’agrandissement de caractères (les images-glyphes ne peuvent pas être agrandies).</p>
+                            <p>De plus, tous les caractères spéciaux, par exemple les <mark data-bs-toggle="tooltip" data-bs-title="Œ, æ en français typiquement">ligatures</mark> ainsi que caractères appartenant à des alphabets non <mark data-bs-toggle="tooltip" data-bs-title="Alphabet grec, phonétique international, caractères mathématiques, émoticônes, etc">latins</mark>, doivent être modélisés par le code caractère Unicode ou entité numérique  hexadécimale correspondante.</p>
+							<p><strong>Note&nbsp;:</strong> la modélisation des caractères spéciaux par surcharge de caractère <mark data-bs-toggle="tooltip" data-bs-title="Pratique très courante dans le papier.">ASCII</mark> ou par substitution d’une image au dit <mark data-bs-toggle="tooltip" data-bs-title="En d’autres termes, il s’agit d’un glyphe géré par une image posée en dur dans le contenu, plutôt que par un glyphe géré dans/par la police.">caractère</mark> est à proscrire car cela perturberait les technologies d’assistance (respectivement altération de mot ou coupure de mot pour la synthèse vocale et la traduction braille), ainsi que l’agrandissement de caractères (les images-glyphes ne peuvent pas être agrandies).</p>
                             <h4>Exemple</h4>
                             <p>
                                 <div class="table-responsive my-4">
@@ -1002,18 +1003,13 @@
                         </section>
                         <section class="docs-section3" id="charte-3-5-2">
                             <h3 class="section-heading3">Head</h3>
-                            <p>Chaque document XHTML doit renseigner une balise &lt;title&gt; dans son &lt;head&gt;. Ce titre (qui n’est pas affiché) sera utilisé par les technologies d’assistance pour permettre à leurs usagers de déterminer s’ils veulent lire la page ou non (et la zaper le cas échéant).
-                            </p>
-                            <p>
-                                La valeur du &lt;title&gt; est déterminée par le contexte du document. Ne pas y mettre le titre de la publication, qui non seulement ne varie pas (et que l’on connaît déjà lorsqu’on a commencé la lecture de l’EPUB), mais qui ne permet pas non plus de discriminer les documents. Le titre de la publication ne serait pas faux, mais parasiterait les technologies d’assistance en répétant constamment une même information connue et non discriminante. C’est d’ailleurs pourquoi le WCAG stipule bien que le &lt;title&gt; du &lt;head&gt; doit décrire le contenu du document lui-même et pas juste celui du site Web auquel appartient le document (site assimilable à nos publications EPUB).
-                            </p>
-                            <p>Dans la plupart des cas, la valeur du &lt;title&gt; est la même que celle du &lt;h*&gt; du document (ex. : Chapitre 1 tout court, s’il n’y a pas de parties ni de volumes au-dessus). Dans le cas de parties volumineuses découpées en plusieurs documents, la valeur du &lt;title&gt; est le titre de la hiérarchie qui a subi le découpage - en allant du particulier au général (ex. : Chapitre 1 – Partie 2).
-                                Dans le cas des documents qui n’ont pas de headings &lt;h*&gt; :
-                                <ul>
-                                <li>si ce document est pointé par une rubrique de sommaire, alors reprendre le libellé de la rubrique de sommaire qui pointe dessus ;</li>
-                                <li>sinon, créer un titre factice « suite de la page précédente ».</li>
-                                </ul>
-                            </p>
+                            <p>Chaque document XHTML doit renseigner une balise &lt;title&gt; dans son &lt;head&gt;. Ce titre est utilisé par les technologies d’assistance pour permettre à leurs usagers de déterminer s’ils veulent lire la page ou la passer.</p>
+                            <p>Les WCAG stipulent  que le &lt;title&gt; du &lt;head&gt; doit décrire le contenu du document lui-même et pas juste celui du site web auquel appartient le document. Ainsi, dans le contexte des EPUB, la valeur du &lt;title&gt; est la même que celle du &lt;h*&gt; du document (ex. : "Chapitre 1"). Dans le cas de parties volumineuses découpées en plusieurs documents, la valeur du &lt;title&gt; est le titre de la hiérarchie qui a subi le découpage - en allant du particulier au général (ex. : "Chapitre 1 – Partie 2"). Dans le cas des documents qui n’ont pas de headings &lt;h*&gt;&nbsp;:</p>
+							<ul>
+                              <li>si ce document est pointé par une rubrique de sommaire, alors reprendre le libellé de la rubrique de sommaire qui pointe dessus ;</li>
+                              <li>sinon, créer un titre factice « suite de la page précédente ».</li>
+                            </ul>
+							<p><strong>Note&nbsp;:</strong> ne pas mettre le titre de la publication car il ne varie pas, ne permet pas de discriminer les documents et il parasiterait les technologies d’assistance en répétant constamment une même information.</p>
                             <p>
                                 <div class="docs-code-block">
                                     <pre class="shadow-lg rounded"> *.xhtml<code class="html hljs">&hellip;
@@ -1060,12 +1056,11 @@
                     </section>
                     <section class="docs-section" id="charte-3-6">
                         <h2 class="section-heading">Langue</h2>
-                        <p>Les règles de <mark data-bs-toggle="tooltip" data-bs-title="Conversion graphie-phonie.">vocalisation</mark>  ou de traduction braille ne sont pas les mêmes d’une langue à l’autre. Pour une bonne exploitation du texte par les technologies d’assistance, la langue doit être indiquée systématiquement et explicitement :
-                        <ul><li>dans les métadonnées de la publication, pour permettre au public aveugle de vérifier qu’il dispose bien d’un moteur de synthèse vocale ou de transcription braille pour la langue de ce titre ;</li>
-                        <li>dans les contenus éditoriaux pour guider globalement ou finement ces technologies d’assistance.</li></ul></p>
+                        <p>Les règles de <mark data-bs-toggle="tooltip" data-bs-title="Conversion graphie-phonie.">vocalisation</mark>  ou de traduction braille ne sont pas les mêmes d’une langue à l’autre. Pour une bonne exploitation du texte par les technologies d’assistance, la langue doit être indiquée systématiquement et explicitement&nbsp;:</p>
+                        <ul><li>dans les métadonnées de la publication, pour permettre au public empêché de vérifier qu’il dispose bien d’un moteur de synthèse vocale ou de transcription braille pour la langue de ce titre ;</li>
+                        <li>dans les contenus éditoriaux pour guider globalement ou finement ces technologies d’assistance.</li></ul>
                         <p>Le signalement de la langue est modélisé de la manière suivante.</p>
-                        <p>
-                            <div class="table-responsive my-4">
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1081,8 +1076,8 @@
                                             <th scope="col" colspan="2" class="tdcenter">Valeur d’attribut</th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" class="tdcenter">Codification de la langue <br />(2 lettres minuscules)</th>
-                                            <th scope="col" class="tdcenter">Codification du pays <br />(2 lettres majuscules)</th>
+                                            <th scope="col" class="tdcenter">Codification de la langue <br>(2 lettres minuscules)</th>
+                                            <th scope="col" class="tdcenter">Codification du pays <br>(2 lettres majuscules)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -1118,19 +1113,17 @@
                                         </tr>
                                         <tr>
                                             <td>Locale à un élément inline</td>
-                                            <td>Locale à un élément inline</td>
+                                            <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content" class="theme-link" target="_blank">[eltInline]</a></td>
                                             <td>lang</td>
                                         </tr>
                                     </tbody>
                                 </table>
                                 </div>
-                        </p>
-                        <p>Pour la valeur de langue, on indique :</p>
+						<p>Pour la valeur de langue, on indique :</p>
                         <ul><li>la langue seule dans les métadonnées ;</li>
                         <li>la langue dite « <mark data-bs-toggle="tooltip" data-bs-title="Au sens de « région du monde ».">régionale</mark> »  dans les contenus éditoriaux, qui permet de préciser l’accent souhaité.</li></ul>
                         <p>Pour cela, on utilise le standard <a href="https://www.ietf.org/rfc/rfc3066.txt" class="theme-link" target="_blank">RFC 3066</a> qui permet de donner un code de langue simple ou composite (code langue <a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" class="theme-link" target="_blank">ISO 639-1</a> sur 2 lettres minuscules + « - » + code pays <a href="https://fr.wikipedia.org/wiki/ISO_3166-1" class="theme-link" target="_blank">ISO_3166-1</a> sur 2 lettres majuscules).</p>
-                        <p>
-                            <div class="table-responsive my-4 col-md-4 col-12">
+						<div class="table-responsive my-4 col-md-4 col-12">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1185,8 +1178,7 @@
                                     </tbody>
                                 </table>
                                 </div>
-                        </p>
-                        <p>Dans les contenus éditoriaux, l’indication de langue se fait en fonction de la portée, au niveau hiérarchique pertinent le plus élevé possible (par souci d’économie et de cohérence).</p>
+                        <p>Dans les contenus éditoriaux, l’indication de langue se fait en fonction de la portée, au niveau hiérarchique pertinent le plus élevé possible.</p>
                         <h4>Exemples</h4>
                         <div class="docs-code-block">
                             <pre class="shadow-lg rounded"> content.opf<code class="html hljs">&lt;dc:language&gt;fr&lt;/dc:language&gt;
@@ -1223,9 +1215,8 @@
                     </section>
                     <section class="docs-section" id="charte-3-7">
                         <h2 class="section-heading">Attributs sémantiques epub:type et rôle ARIA</h2>
-                        <p>En <mark data-bs-toggle="tooltip" data-bs-title="Cela pourrait changer en EPUB4, où seuls les rôles ARIA pourront subsister.">EPUB 3</mark>, les attributs @epub:type et @role ARIA doivent être doublés. En effet, si ces deux familles d’attributs sont destinées aux « machines » (et pas aux humains), elles n’ont pas la même vocation.</p>
-                        <p>
-                            <div class="table-responsive my-4">
+                        <p>En <mark data-bs-toggle="tooltip" data-bs-title="Cela pourrait changer en EPUB 4, où seuls les rôles ARIA pourront subsister.">EPUB 3</mark>, les attributs @epub:type et @role ARIA doivent être doublés car bien que tous deux destinés aux « machines », ils n’ont pas la même vocation.</p>
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1248,14 +1239,15 @@
                                     </tbody>
                                 </table>
                                 </div>
-                        </p>
-                        <p>On notera que la pose des rôles ARIA n’est pas limitée aux seuls contenus <mark data-bs-toggle="tooltip" data-bs-title="Leur absence sur les contenus interactifs sera par contre totalement rédhibitoire en terme d’usage.">interactifs</mark>.</p>
-                        <p>Les très nombreux attributs sémantiques définis dans les formats <a href="https://www.w3.org/TR/epub-ssv-11/" class="theme-link" target="_blank">EPUB</a> et ARIA (<a href="https://www.w3.org/TR/wai-aria-1.1/#role_definitions" class="theme-link" target="_blank">web</a> et <a href="https://www.w3.org/TR/dpub-WAI-ARIA-1.0/#roles" class="theme-link" target="_blank">DPUB</a>) ne sont pas tous à renseigner. À cela plusieurs raisons. Certains sont <mark data-bs-toggle="tooltip" data-bs-title="Dans le cas où la sémantique est déjà portée par le texte, les attributs sémantiques seront systématiquement facultatifs. Dans le cas contraire, ils seront obligatoires si porteurs d’une information sémantique importante pour la compréhension, recommandés sinon.">redondants</mark>  avec le contenu textuel (ex. : « Préface » et @epub:type=foreword). <br />D’autres sont redondants avec le balisage sémantique HTML5 maintenant disponible en EPUB 3 (ex. : balise &lt;figure&gt; et @epub:type=figure). <br />D’autres encore ne sont pas exploités par les systèmes de lecture, ni par les technologies d’assistance auxquels ils sont destinés (du moins tels qu’ils existent et que nous les connaissons aujourd’hui). Pour d’autres enfin, leur utilité future réelle semble douteuse.</p><p>
-                        Ce faisant, voici la sélection que nous avons faite dans ces vocabulaires, afin de rendre des services avérés à nos lecteurs. Cette sélection pourra être appelée à évoluer avec l’évolution des systèmes de lecture, des technologies d’assistance et des recommandations des organismes représentant les publics empêchés de lire.</p>
-                        <p>Nous nous appuyons sur la <a href="https://www.w3.org/TR/epub-aria-authoring-11/" class="theme-link" target="_blank">table de correspondance</a> epub:type / WAI-ARIA role produite par le W3C pour mettre en correspondance les deux systèmes d’attributs.
-                        </p>
-                        <p>
-                            <div class="table-responsive my-4">
+						<p><strong>Note&nbsp;:</strong> la pose des rôles ARIA n’est pas limitée aux seuls contenus <mark data-bs-toggle="tooltip" data-bs-title="Leur absence sur les contenus interactifs sera par contre totalement rédhibitoire en terme d’usage.">interactifs</mark>.</p>
+                        <p>Les très nombreux attributs sémantiques définis dans les formats <a href="https://www.w3.org/TR/epub-ssv-11/" class="theme-link" target="_blank">EPUB</a> et ARIA (<a href="https://www.w3.org/TR/wai-aria-1.1/#role_definitions" class="theme-link" target="_blank">web</a> et <a href="https://www.w3.org/TR/dpub-WAI-ARIA-1.0/#roles" class="theme-link" target="_blank">DPUB</a>) ne sont pas tous à renseigner. À cela plusieurs raisons&nbsp;:</p>
+						<ul>
+							<li>la <mark data-bs-toggle="tooltip" data-bs-title="Dans le cas où la sémantique est déjà portée par le texte, les attributs sémantiques seront systématiquement facultatifs. Dans le cas contraire, ils seront obligatoires si porteurs d’une information sémantique importante pour la compréhension, recommandés sinon.">redondance</mark>  avec le contenu textuel (ex. : « Préface » et @epub:type=foreword)&nbsp;;</li>
+							<li>la redondance avec le balisage sémantique HTML5 disponible en EPUB 3 (ex. : balise &lt;figure&gt; et @epub:type=figure)&nbsp;;</li>
+							<li>l'absence, à date, d'exploitation par les systèmes de lecture et par les technologies d’assistance auxquels ils sont destinés&nbsp;.</li>
+						</ul>
+                        <p>Retrouvez ci-dessous notre sélection d'attributs à renseigner pour rendre un service avéré au public. Cette liste s'appuie sur la <a href="https://www.w3.org/TR/epub-aria-authoring-11/" class="theme-link" target="_blank">table de correspondance</a> epub:type / WAI-ARIA role produite par le W3C&nbsp;:</p>
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1395,10 +1387,8 @@
                                     </tbody>
                                 </table>
                                 </div>
-                        </p>
-                        <p>Qui peut le plus peut le moins. Si l’outil de production d’EPUB du prestataire pose davantage d’attributs @epub:type et @role ARIA que demandé (et s’ils sont justes bien sûr ☺), ces attributs sémantiques seront les bienvenus et ne seront pas rejetés. Cela vaut notamment pour les valeurs suivantes : </p>
-                        <p>
-                            <div class="table-responsive my-4">
+                        <p>À cette liste s'ajoute la sélection facultative suivante, si pertinent&nbsp;:</p>
+						<div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
                                     <thead>
                                         <tr>
@@ -1514,9 +1504,7 @@
                                     </tbody>
                                 </table>
                                 </div>
-                        </p>
-                        <p>
-                            <div class="table-responsive my-4">
+								<div class="table-responsive my-4">
                                 <table class="table table-bordered table-danger">
                                     <thead>
                                         <tr>
@@ -1544,11 +1532,10 @@
                                     </tbody>
                                 </table>
                                 </div>
-                        </p>
-                    </section>
+					</section>
                     <section class="docs-section" id="charte-3-8">
                         <h2 class="section-heading">Page de couverture</h2>
-                        <p><img class="figure-img img-fluid shadow rounded" src="assets/charte/content_opf3.png" alt="Schémas représentant les fichiers dans l'epub pour la couv" /></p>
+                        <p><img class="figure-img img-fluid shadow rounded" src="assets/charte/content_opf3.png" alt="Représentation schématique des liens entre les fichiers pour la couverture : content.opf déclare cover.xhtml et cover.jpg, cover.xhtml contient cover.jpg" /></p>
                         <p>
                             <div class="table-responsive my-4">
                                 <table class="table table-bordered table-info">
@@ -1575,8 +1562,7 @@
                                 </table>
                                 </div>
                         </p>
-                        <p>La définition de la page de couverture dans le fichier OPF ne change pas.</p><p>
-                        Le balisage de la page de couverture est sémantique. Il utilise les balises HTML5 (section, figure, img) et renseigne les attributs @epub:type et @role ARIA (si équivalent). La page de couverture a une valeur @epub:type dédiée (cover).</p><p>
+			<p>Le balisage de la page de couverture est sémantique. Il utilise les balises HTML5 (section, figure, img) et renseigne les attributs @epub:type et @role ARIA, si équivalent. La page de couverture a une valeur @epub:type dédiée, cover.</p><p>
                         L’image de couverture appelée par la page de couverture doit comporter un texte alternatif qui doit débuter nécessairement par un indicateur précisant qu’il s’agit de la couverture, comme par exemple « <strong>Image de couverture</strong> ». Si la page de titre qui la suit immédiatement indique des informations similaires, cet indicateur peut être suffisant, afin d’éviter que les technologies d’assistance ne les répètent inutilement.
                         </p>
                         <p>
@@ -1706,7 +1692,7 @@
                                 <li>soit sous forme d’<mark data-bs-toggle="tooltip" data-bs-title="Cette solution est parfois préférée pour forcer la mise en page de la page de titre sur toutes les tailles d’écran et toutes les tailles de caractères.">image de texte</mark> (avec texte alternatif obligatoire) .</li>
                             </ul>
                         </p>
-                        <p>Son balisage est sémantique. Il utilise les balises HTML5 (cf. section) et renseigne les attributs @epub:type et @role ARIA (si équivalent). La page de titre fait partie de la « malle avant » de la publication (cf. frontmatter). Cette information doit si possible être préservée. Mais ce n’est pas une obligation.
+                        <p>Son balisage est sémantique. Il utilise les balises HTML5 (cf. section) et renseigne les attributs @epub:type et @role ARIA, si équivalent. La page de titre fait partie de la « malle avant » de la publication (cf. frontmatter). Cette information doit si possible être préservée. Mais ce n’est pas une obligation.
                         </p>
                         <p>
                             <div class="table-responsive my-4">
@@ -1806,7 +1792,7 @@
                                             <td>AA</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="https://www.w3.org/TR/WCAG22/#images-of-text" class="theme-link" target="_blank">1.4.9 Images of Text (No Exception)</a></td>
+                                            <td><a href="https://www.w3.org/TR/WCAG22/#images-of-text-no-exception" class="theme-link" target="_blank">1.4.9 Images of Text (No Exception)</a></td>
                                             <td>AAA</td>
                                         </tr>
                                         <tr>
