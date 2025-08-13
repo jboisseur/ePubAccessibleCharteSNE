@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="fr" > 
+<head>
+    <title>Charte - Mise en accessibilité des images dans les EPUBs </title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description à mettre ici">
+    <meta name="author" content="SNE">    
+    <link rel="shortcut icon" href="assets/charte/favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/highlight/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<style>
+		.tdcenter{
+			text-align: center; vertical-align: middle;
+		}
+	</style>
+	<script type="text/javascript" id="MathJax-script" async="" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+
+</head> 
+
+<body class="docs-page">    
+	<header class="header fixed-top">	 
+	       
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2" src="assets/images/accessibility.svg" alt="logo" style="width:20px;"><span class="logo-text">Charte EPUB Accessible  <span class="text-alt">SNE</span></span></a></div>    
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+					<!--	<li class="list-inline-item"><a href="#"><i class="fa-brands fa-github fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="#"><i class="fa-brands fa-slack fa-fw"></i></a></li>-->
+		                <li class="list-inline-item"><a href="https://github.com/edition-accessible/ePubAccessibleCharteSNE"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a></li>
+		            </ul>
+		            <a href="charte.pdf" class="btn btn-danger d-none d-lg-flex">Télécharger en PDF</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+			<nav id="docs-nav" class="docs-nav navbar">
+				    <ul class="section-items list-unstyled nav flex-column pb-3">
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-1">Mise en accessibilité des images dans les EPUBs</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-1-1">Objectif du document</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-1-2">Le contexte de la Directive européenne</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-2-1">Les bénéficiaires</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-1-3">Qu’est-ce qu’un texte alternatif et à quoi ça sert ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-3-1">Définition</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-3-2">A qui s’adresse la retranscription textuelle d’image ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-3-3">Image informative ou image décorative ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-3-4">Qu’est-ce qu’une image décorative ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-3-5">Qu’est-ce qu’une image informative ?</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-1-4">Quand et comment rédiger un texte alternatif ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-1">Le choix éditorial de la fourniture d’un texte alternatif</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-2">Exemple de texte alternatif en fonction du contexte</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-3">Alternative textuelle courte et longue</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-4">Quand un texte alternatif long est nécessaire ? Quelles questions se poser ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-5">Rédaction des textes alternatifs</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-6">Quelques bonnes pratiques pour la rédaction</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-1-4-7">Comment savoir si son texte alternatif est pertinent ?</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-2">Intégration technique au sein de l’EPUB</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-2-1">Comment transmettre ces textes alternatifs au service de fabrication ou de composition ?</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-2-2">Comment intégrer techniquement le texte alternatif ?</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-2-2-1">Absence volontaire de texte alternatif</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-2-2-2">Texte alternatif court</a></li>
+        <li class="nav-item sous-item"><a class="nav-link scrollto" href="#charte-2-2-3">Texte alternatif long</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-2-3">La restitution</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-3">Renseigner les métadonnées de mise en accessibilité des images</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-3-1">Métadonnées dans l’EPUB</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-3-2">Métadonnées d’accessibilité ONIX</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-4">Comment contrôler la bonne intégration des textes alternatifs dans les EPUBs ?</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-4-1">Thorium</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-4-2">Ace</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-5">Comment contrôler les métadonnées d’accessibilité des images ?</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-5-1">Ace</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-6">Référentiels techniques</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-6-1">WCAG</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-6-2">Standards d’accessibilité EPUB</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-7">Ressources</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-7-1">Comment décrire les images ?</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-7-2">The Art and Science of Describing Images</a></li>
+        <li class="nav-item section-title"><a class="nav-link scrollto active" href="#charte-8">Annexes</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-8-1">Annexe 1 : Extraits de la Directive concernant les textes alternatifs aux images</a></li>
+        <li class="nav-item"><a class="nav-link scrollto" href="#charte-8-2">Annexe 2 : Tableau Excel</a></li>
+    </ul>
+			</nav>
+			
+			
+			
+			   
+		  
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content">
+		    <div class="container">
+				<div class="row">
+				 	<div class="col-md-10 offset-md-1">
+
+				<article class="docs-article" id="charte-1">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Mise en accessibilité des images dans les EPUBs </h1>
+				    </header>
+				    <section class="docs-section" id="charte-1-1">
+						<h2 class="section-heading">Objectif du document</h2>
+							<p>Ce document a pour objectif d’apporter aux personnes participant à la création, la production et la diffusion de livres numériques au format EPUB un ensemble de bonnes pratiques pour rendre accessibles leurs images (quand elles le nécessitent) et signaler ce travail de mise en accessibilité. Pourquoi le faire ? Pour qui et par qui ? Quand et comment ? Voici les questions qui se posent aux éditeurs aujourd’hui et auxquelles nous chercherons à apporter des éléments de réponse.</p>
+							
+					</section><!--//section-->
+					<section class="docs-section" id="charte-1-2">
+						<h2 class="section-heading">Le contexte de la Directive européenne</h2>
+						<p>La directive (UE) 2019/882 du Parlement européen et du Conseil du 17 avril 2019 relative aux exigences en matière d’accessibilité applicables aux produits et services (ci-après nommée Directive)  inclut les livres numériques et précise les « exigences générales » applicables à l’ensemble des services et « exigences supplémentaires » applicables au livre numérique afin qu’il soit considéré comme accessible :</p>
+						<ul>
+							<li>1.	veiller à ce qu’un livre numérique contenant des éléments audio en plus du texte fournisse des contenus textuels et audio synchronisés ;</li>
+							<li>2.	veiller à ce que les fichiers numériques n’empêchent pas les technologies d’assistance de fonctionner correctement ;</li>
+							<li>3.	garantir l’accès au contenu, la navigation dans le contenu et dans la mise en page du fichier, y compris la mise en page dynamique, la mise à disposition de la structure du fichier, la flexibilité et le choix de la présentation du contenu ;</li>
+							<li>4.	permettre des restitutions alternatives du contenu et son interopérabilité avec diverses technologies d’assistance, de manière à ce qu’il soit perceptible, utilisable, compréhensible et robuste ;</li>
+							<li>5.	permettre la découverte en fournissant des informations, via les métadonnées, sur les caractéristiques d’accessibilité ;</li>
+							<li>6.	s’assurer que les mesures de gestion des droits numériques ne bloquent pas les caractéristiques d’accessibilité.</li>
+						</ul>
+								<p>Les exigences de la directive, en cours de transposition en droit français, seront applicables à compter du 28 juin 2025.</p>
+								<p>Ce sont les points 4 et 5 qui sont traités dans ce document, car ils concernent tous les deux les images contenues dans les publications.
+									</p>
+									<section class="docs-section3" id="charte-1-2-1">
+										<h3 class="section-heading3">Les bénéficiaires</h3>
+										<p>Le champ des personnes visées par la Directive est large. Il concerne aussi bien les personnes « qui présentent des incapacités physiques, mentales, intellectuelles ou sensorielles durables » que les personnes confrontées à des « limitations fonctionnelles » permanentes, lié à l’âge, temporaires (<mark data-bs-toggle="tooltip" data-bs-title="Selon l’article L. 114 du code de l’action sociale et des familles : « Le handicap est défini comme : toute limitation d’activité ou restriction de participation à la vie en société subie dans son environnement par une personne en raison d’une altération substantielle, durable ou définitive d’une ou plusieurs fonctions physiques, sensorielles, mentales, cognitives ou psychiques, d’un polyhandicap ou d’un trouble de santé invalidant">accidentelle ou situationnelle</mark>)
+										</p>
+									</section>
+
+
+					</section>
+
+					<section class="docs-section" id="charte-1-3">
+						<h2 class="section-heading">Qu’est-ce qu’un texte alternatif et à quoi ça sert ? </h2>
+						<section class="docs-section3" id="charte-1-3-1">
+							<h3 class="section-heading3">Définition</h3>
+							<p>Un texte alternatif est une (re)transcription textuelle d’un contenu non-textuel afin de le rendre accessible aux technologies Ces dispositifs sont exploités par les matériels/systèmes de lecture dédiés aux publics en situation de handicap, mais aussi par les appareils de lecture grand public (synthèse vocale typiquement). L’intégration d’un texte alternatif dans un livre numérique accessible concerne tous les éléments qui sont non-textuels : les sons, les vidéos, les images (dont un texte ou un tableau représenté en image…).</p>
+							<p>Pour mémoire, la fourniture et l’intégration de textes alternatifs dans un livre numérique accessible ne concerne pas que les images. Il concerne plus largement tous ses contenus éditoriaux non textuels : sons, vidéos et images donc (dont les textes ou les tableaux représentés en image…).</p>
+							<p>Toutefois, compte-tenu de la faible <mark data-bs-toggle="tooltip" data-bs-title="En dehors des secteurs de l’édition scolaire et scientifique du moins">volumétrie</mark> des EPUBs contenant des vidéos et du <mark data-bs-toggle="tooltip" data-bs-title="À l’exception des livres audio bien sûr.">son</mark>, le groupe Normes et Standards du SNE a décidé de donner la priorité à la question des textes alternatifs aux images. C’est l’objet de ce document.</p>
+							<p>L’objectif d’un texte alternatif est de transmettre le sens ou le message porté par l’image, le graphique, etc. Suivant le contenu de l’image ou l’intention éditoriale associée, il ne s’agira pas toujours de décrire systématiquement tous les éléments composant une image. Il s’agira parfois de retranscrire textuellement, et subjectivement, le message que l’auteur et l’éditeur ont souhaité véhiculer graphiquement. Les textes alternatifs aux images ne peuvent donc pas toujours être réduits à de simples descriptions objectives.</p>
+						</section>
+						<section class="docs-section3" id="charte-1-3-2">
+							<h3 class="section-heading3">A qui s’adresse la retranscription textuelle d’image ? </h3>
+							<p>La mise en accessibilité d’une image via un texte alternatif est requise pour tous les publics empêchés de lire. Accessible, le livre numérique peut être lu dans des modalités variées, comme le recours à la voix de synthèse ou à un clavier Braille, ou à d’autres dispositifs. Ces recours sont cruciaux pour les personnes aveugles, mais également très utiles pour d’autres situations de handicap ou de nouveaux usages (lecture mains libres, assistants vocaux, …). Les textes alternatifs sont donc potentiellement profitables à toutes et tous. Il est important de ne pas réfléchir uniquement en fonction des handicaps visuels. </p>
+						</section>
+						<section class="docs-section3" id="charte-1-3-3">
+							<h3 class="section-heading3">Image informative ou image décorative ?</h3>
+							<p>Faut-il pour autant ajouter un texte alternatif pour tous les contenus non textuels ? Si non, quels sont les critères déterminants ? </p>
+							<p>La première étape est de déterminer si les images dans leur contexte sont informatives  ou décoratives. Le statut décoratif ou informatif des images ne leur est pas toujours inhérent. Il relève très souvent d’un choix éditorial dans l’appréciation de ce statut.</p>
+						</section>
+						<section class="docs-section3" id="charte-1-3-4">
+							<h3 class="section-heading3">Qu’est-ce qu’une image décorative ?</h3>
+							<p>Il s’agit d’une image ajoutant une décoration visuelle à la page, fond de page, motifs, vignette, cul de lampe etc., qui n’est pas indispensable à la compréhension, qui ne porte pas de message que l’éditeur souhaite faire passer, etc.</p>
+							<p>L’ajout d’un texte alternatif pour ces images est déconseillé, car plutôt que de l’aider, il gênerait la lecture pour les personnes en situation de handicap en la ralentissant  inutilement. </p>
+
+						</section>
+						<section class="docs-section3" id="charte-1-3-5">
+							<h3 class="section-heading3">Qu’est-ce qu’une image informative ? </h3>
+							<p>Une image informative est une image porteuse d’un message que l’éditeur souhaite restituer textuellement aux personnes empêchées de lire, dans un contexte de publication précis. </p>
+							<p>Différents types d’images informatives :</p>
+							<ul>
+								<li><b>Image signifiante :</b> image représentant des concepts et des informations, voire des messages émotionnels (photographie, peinture, illustration…). </li>
+								<li><b>Image de texte :</b> texte lisible présenté sous forme de pixel </li>
+								<li><b>Image cliquable :</b> image utilisée comme lien ou comme bouton </li>
+								<li><b>Image de données :</b> image qui repose sur un jeu de données (graphique, diagramme, organigramme, tableau de données), lorsqu’un texte court ne suffit pas pour décrire le sens.</li>
+								<li><b>Groupe d'images :</b> ensemble d’images véhiculant une seule information</li>
+								<li><b>Image interactive :</b> contient différentes zones cliquables</li>
+							</ul>
+							<p>En fonction de la typologie, le message est soit objectif, soit subjectif. Par exemple, un logo Facebook cliquable n’a pas de message émotionnel à faire passer et peut donc avoir un texte alternatif objectif. Par contre, une illustration, peut avoir pour but de susciter une émotion qu’il sera nécessaire de transmettre textuellement. Dans ce cas, il s’agit d’une transcription subjective qui traduit l’intention de l’auteur et de l’éditeur.</p>
+						</section>
+
+
+					</section>
+					
+					<section class="docs-section" id="charte-1-4">
+						<h2 class="section-heading">Quand et comment rédiger un texte alternatif ?</h2>
+						<p>Pour chaque image, il faut déterminer si un texte alternatif est nécessaire. Cette décision repose non seulement sur le statut décoratif/informatif de l’image, mais aussi sur le contexte de l’image dans la page.</p>
+						<p>Les images sont généralement entourées par du texte qui est plus ou moins corrélé à l’image. Par exemple, si un paragraphe ou une légende d’image décrivent l’information portée par l’image, alors un texte alternatif n’est pas indispensable, puisque cette information est déjà fournie dans le texte.</p>
+						<p>C’est pourquoi le contexte textuel a toute son importance dans le processus de décision et d’élaboration du texte alternatif.</p>
+						<p>Il ne faut pas oublier que ce texte alternatif sera lu en contexte par les technologies d’assistance. Il va donc s’insérer dans l’ordre de lecture d’un contenu qui sera devenu complètement textuel (car les technologies d’assistance n’affichent pas les images).</p>
+
+						<section class="docs-section3" id="charte-1-4-1">
+							<h3 class="section-heading3">Le choix éditorial de la fourniture d’un texte alternatif</h3>
+							<p>Pour permettre aux éditeurs de déterminer quelles sont les images pour lesquelles ils doivent fournir ou non un texte alternatif, voici un arbre de décision qui pourra les aider.</p>
+							<p>L’arbre de décision ci-dessous recense les questions qui peuvent se poser afin de déterminer la nécessité/pertinence d’un texte alternatif. </p>
+							<p><img class="figure-img img-fluid shadow rounded" src="assets/charte-image/arbre_decision.png" alt="arbre de décision" /></p>
+
+							<p>La rédaction d’une charte éditoriale par maison d’édition peut être un outil utile à mettre en place par les éditeurs.</p>
+						</section>
+						<section class="docs-section3" id="charte-1-4-2">
+							<h3 class="section-heading3">Exemple de texte alternatif en fonction du contexte</h3>
+							<p><img class="figure-img img-fluid shadow rounded" src="assets/charte-image/napoleon.png" alt="Image représentant Napoléon, exemple pour définir le texte alternatif" /></p>
+
+							<p>
+								<div class="table-responsive my-4">
+									<table class="table table-bordered table-info">
+										<tbody>
+											<tr>
+												<th scope="row">Quel est le contexte ?</th>
+												<td>Dans un livre d’histoire, un chapitre détaille plusieurs chefs militaires et cette image introduit un paragraphe sur Napoléon </td>
+												<td>Dans le même livre d’histoire, cette image est suivie d’un texte indiquant « Napoléon Ier » </td>
+												<td> Dans une biographie de Napoléon, cette image est utilisée comme lien vers un article Wikipédia</td>
+												<td>Cette image est présente dans une biographie du peintre Jacques-Louis David</td>
+												<td>Dans un livre, l’image est accompagnée d’une légende suffisante pour en comprendre le sens</td>
+											</tr>
+											<tr>
+												<th scope="row">Quel texte alternatif serait pertinent ?</th>
+												<td>2 options : <br />1/ Napoléon Ier <br />2/ Aucun
+												</td>
+												<td>Aucun</td>
+												<td>Article Wikipédia sur Napoléon Ier </td>
+												<td>Portrait de Napoléon Ier par Jacques-Louis David</td>
+												<td>2 options : <br />1/ Image <br />2/ Aucun</td>
+											</tr>
+											
+										</tbody>
+									</table>
+									</div>
+							</p>
+						</section>
+						<section class="docs-section3" id="charte-1-4-3">
+							<h3 class="section-heading3">Alternative textuelle courte et longue </h3>
+							<p><b>Définition :</b></p>
+							<p>Pour les images informatives, la fourniture d’un texte alternatif court est obligatoire. La fourniture d’un texte alternatif long complémentaire est facultative. Elle n’est requise que dans deux cas de figure :</p>
+							<ul>
+								<li>impossibilité de restituer toute l’information de manière concise comme l’exige fonctionnellement le texte court et de tenir dans la limite des <mark data-bs-toggle="tooltip" data-bs-title="Contrairement à ce que l’on peut lire sur le Web, ni les standards, ni Ace ne définissent de limite de nombre de caractères stricte pour le texte court. Seuls des ordres de grandeur sont donnés à titre indicatif, qui varient beaucoup d’un auteur à l’autre ou des outils de gestion de contenu (ex : 40, 60, 128, etc. caractères).">145 caractères</mark> imposée par certaines technologies d’assistance ;</li>
+								<li>inadéquation du texte brut au kilomètre pour structurer un contenu textuel alternatif, par exemple pour les graphiques comprenant de nombreuses données ou une carte géographique.  Cela garantit la prosodie de la synthèse vocale (qui a besoin d’un découpage en phrases/paragraphes pour fonctionner correctement).</li>
+							</ul>
+							<p>Le contenu (et donc la longueur) des textes alternatifs courts/longs sont des choix éditoriaux qui dépendent principalement de trois critères :</p>
+							<ul>
+								<li>le contexte textuel (qui contient déjà une partie de l’information ou non) ;</li>
+								<li>la complexité de l’image à traiter ;</li>
+								<li>le public ciblé par la publication (par exemple enfants, professionnels, etc.).</li>
+							</ul>
+
+						</section>
+						<section class="docs-section3" id="charte-1-4-4">
+							<h3 class="section-heading3">Quand un texte alternatif long est nécessaire ? Quelles questions se poser ?</h3>
+							<p>[Mettre arbre Décision slide 28]</p>
+							<p>Un texte alternatif long sera forcément accompagné d’un texte alternatif court et d’un texte de libellé de type « lire la description longue ».</p>
+							<p>L’intégration technique et la restitution des textes alternatifs courts et des textes alternatifs longs sont différents. C’est pourquoi ces deux types de textes alternatifs doivent être clairement distingués lors de leur transmission au prestataire de fabrication EPUBs (cf. Intégration technique). </p>
+
+						</section>
+						<section class="docs-section3" id="charte-1-4-5">
+							<h3 class="section-heading3">Rédaction des textes alternatifs </h3>
+							<p><b>Qui rédige ?</b></p>
+							<p>L'éditeur va déterminer la nécessité d’un texte alternatif et, si besoin, son rédacteur en fonction de son organisation. L’auteur et l’éditeur sont les mieux placés pour transmettre l’intention du choix de l’image. </p>
+							<p>Les textes alternatifs seront rédigés par le service éditorial avec ou sans l’auteur, L’auteur est souvent requis quand il s’agit d’une image qui nécessite une compétence ou une connaissance dans un secteur particulier (par exemple en astronomie, en chimie). </p>
+							<p>On pourra sous-traiter la saisie d’un texte alternatif au compositeur dans le cas d’un texte modélisé en image ou d’une image récurrente. L’éditeur devra alors s’être entendu en amont avec le compositeur, via un cahier des charges explicite, sur le contenu du texte alternatif (par exemples texte du logo, titraille traitée en image, image de couverture, d'un pictogramme récurrent, etc.).</p>
+
+
+						</section>
+						<section class="docs-section3" id="charte-1-4-6">
+							<h3 class="section-heading3">Quelques bonnes pratiques pour la rédaction</h3>
+							<ul>
+								<li>Offrir les mêmes informations qu’aux voyants : ni plus, ni moins ;</li>
+								<li>Ne faire perdre aucune information nécessaire à la compréhension ;</li>
+								<li>Éviter les doublons (cf. information déjà présente dans le texte), être concis (en allant à l’essentiel) pour ne pas rallonger le temps de lecture avec les technologies d’assistance ;</li>
+								<li>Garder le même ton, vocabulaire, niveau de langue que ceux utilisés dans la publication ;</li>
+								<li>N’indiquer la typologie de l’image que si nécessaire (dessin, gravure…) ;</li>
+								<li>Tirer parti du brief édito aux iconographes pour le choix de l’image (si disponible) ;</li>
+								<li>Tirer parti des métadonnées d’images fournies par la banque d’image ou la photothèque (si disponibles et pertinentes pour l’accessibilité).</li>
+							</ul>
+						</section>
+						<section class="docs-section3" id="charte-1-4-7">
+							<h3 class="section-heading3">Comment savoir si son texte alternatif est pertinent ?</h3>
+							<p>Il y a autant de possibilité de textes alternatifs que de personnes rédigeant, Ce faisant, il n’y a pas un seul texte alternatif pertinent, mais potentiellement plusieurs.</p>
+							<p>Pour juger de la pertinence d’un texte alternatif, l’éditeur doit se mettre à la place du lecteur empêché. </p>
+							<p>La lecture sans support visuel n’est pas l’exclusivité des aveugles ou déficients visuels et la rédaction d’un texte alternatif ne nécessite pas d’expertise dans le domaine du handicap. Chaque éditeur peut simuler une expérience de privation d’accès visuel à l’image par différents moyens : se lire le texte alternatif à haute voix les yeux fermés, imaginer décrire l’image par téléphone à quelqu’un, etc. Cela lui permettra d’exercer son bon sens pour juger de la pertinence de son texte alternatif et de l’ajuster si besoin.</p> 
+
+						</section>
+					</section>
+				</article>
+				<article class="docs-article" id="charte-2">
+					<header class="docs-header">
+						<h1 class="docs-heading">Intégration technique au sein de l’EPUB</h1>
+					</header>
+					<p>Une fois les textes alternatifs rédigés et transmis, le compositeur numérique se charge de les intégrer soit dans l’EPUB, soit dans l’XML pivot servant à la génération automatique de l’EPUB. </p>
+					<section class="docs-section" id="charte-2-1">
+						<h2>Comment transmettre ces textes alternatifs au service de fabrication ou de composition ?</h2>
+						<p>Le groupe Normes et Standards du SNE propose un modèle de fichier Excel pour la fourniture des textes alternatifs aux compositeurs numériques. Vous trouverez le tableau Excel en annexe . Il pourra servir également au contrôle qualité du fichier EPUB produit, pour vérifier la bonne intégration des textes alternatifs transmis.</p>
+					</section>
+					<section class="docs-section" id="charte-2-2">
+						<h2>Comment intégrer techniquement le texte alternatif ? </h2>
+						<section class="docs-section3" id="charte-2-2-1">
+							<h3 class="section-heading3">Absence volontaire de texte alternatif</h3>
+							<p>Cela sert à signaler les images décoratives qui doivent être ignorées par les technologies d’assistance. <br />
+								L’attribut @alt sur &lt;img&gt; est présent mais vide.</p>
+							<p>Par exemple : </p>
+							<div class="docs-code-block">
+								<pre class="shadow-lg rounded"><code class="html hljs">&lt;img src="image.jpg" alt=""&gt;&lt;/&gt;</code></pre>
+							</div>
+
+							</p>
+						</section>
+						<section class="docs-section3" id="charte-2-2-2">
+							<h3 class="section-heading3">Texte alternatif court</h3>
+							<p>Le texte alternatif court est un texte brut à placer en valeur d’attribut @alt dans la balise &lt;img&gt;</p>
+							<p>Par exemple : </p>
+							<div class="docs-code-block">
+								<pre class="shadow-lg rounded"><code class="html hljs">&lt;img src="logo.jpg" alt="Logo de ma maison d'édition" &gt;&lt;/&gt;</code></pre>
+							</div>
+
+							</p>
+						</section>
+						<section class="docs-section3" id="charte-2-2-3">
+							<h3 class="section-heading3">Texte alternatif long</h3>
+							<p>Il existe différentes manières de gérer le texte alternatif long, plus ou moins complexes et interopérables. Voici les deux manières retenues par le Groupe Normes et Standards lors de la rédaction de la Charte de production des EPUBs :</p>
+							<p><b>Solution 1 : texte long défini dans le même fichier XHTML que l’image</b></p>
+							<p>Depuis l’image &lt;img&gt;, référence croisée via <mark data-bs-toggle="tooltip" data-bs-title="L’attribut HTML4 @longdesc n’est plus supporté en HTML5 et par extension en EPUB 3. Il faut donc lui préférer l’attribut @aria-describedby.">l’attribut @aria-describedby</mark>  à un élément bloc du même fichier XHTML (cf. balises &lt;div&gt;, ou &lt;article&gt;, &lt;table&gt;, &lt;dl&gt;) qui contient tout le texte long et qui porte un identifiant HTML (via un attribut @id) pour pouvoir y faire référence croisée depuis l’image.</p>
+							<p><b>Solution 2 : texte long défini dans un autre fichier XHTML que l’image</b></p>
+							<p>Sous l’image &lt;img&gt;, hyperlien vers un autre fichier XHTML qui contient le texte long de cette <mark data-bs-toggle="tooltip" data-bs-title="Les technologies d’assistance vont lire le fichier tiers, soit à partir du début, soit à partir de l’ancre donnée dans l’URL. Dans ce second cas, elles risquent de lire les textes longs placés derrières ancres qui suivent celles qui intéressent la seule image courante. Pour éviter ce risque, mieux vaut n’avoir qu’un texte long par fichier HTML.">image</mark>.</p>
+							<p>Dans les deux cas, le texte long peut être montré / caché aux lecteurs, au choix de l’éditeur. Par défaut, afin de préserver l’homogénéité entre papier et EPUB nativement accessible, le texte long et/ou l’hyperlien vers le texte long sera invisible. Pour le masquer, il suffit d’appliquer la propriété de style <mark data-bs-toggle="tooltip" data-bs-title="directement dans le HTML ou via une classe de CSS dédiée.">visibility:hidden</mark> sur le texte long (où qu’il soit) ou sur l’hyperlien vers le texte long.</p>
+							<p>Pour plus de précisions, consultez la charte technique pour la production d’« EPUBs textuels » nativement accessibles disponible sur le site internet du SNE. </p>
+							<p><b>Solution 3 : balise &lt;detail&gt;</b></p>
+							<p>La balise détails permet au lecteur de rendre visible une description longue. Afficher/Masquer
+							Elle est aussi reconnue par la synthèse vocale. Le rendu peut être personnalisable en css.
+							Le contenu de la balise peut être enrichi par des titres, des tableaux et tout type de balises html.</p>
+
+						</section>
+					
+					</section>
+					<section class="docs-section" id="charte-2-3">
+						<h2>La restitution</h2>
+						<p>Les meilleurs outils de restitution grand public à ce jour sont l’application de lecture Thorium sur ordinateur et l’utilisation conjointe de Books et VoiceOver sur Iphone ou Ipad.</p>
+					</section>
+				</article>
+				<article class="docs-article" id="charte-3">
+					<header class="docs-header">
+						<h1 class="docs-heading">Renseigner les métadonnées de mise en accessibilité des images</h1>
+					</header>
+					<p>La Directive oblige à signaler les caractéristiques d’accessibilité en renseignant les métadonnées correspondantes. 
+						Concernant la mise en accessibilité des images, les métadonnées doivent donc être renseigné tant dans le EPUB produit que dans le flux de diffusion aux revendeurs. 
+						</p>
+					<section class="docs-section" id="charte-3-1">
+						<h2>Métadonnées dans l’EPUB</h2>
+						<p>La déclaration des caractéristiques d’accessibilité, incluant la présence des textes alternatifs, s’effectue par le fichier OPF, par l’utilisation d’élément &lt;meta&gt; sous l’élément &lt;metadata&gt;.</p>
+						<p><b>Déclaration de contenus visuels et des textes alternatifs</b></p>
+						<p>La présence de textes alternatifs suppose l’existence d’images informatives dans l’EPUB. Dans ce cas, cela signifie que la lecture standard (sans technologie d’assistance) doit se faire aussi sous forme visuelle, ce que la propriété accessMode doit préciser en utilisant la valeur "visual".</p>
+						<p>Si tous les textes alternatifs aux images informatives ont été renseignés, alors la lecture des images par les technologies d’assistance sera possible en passant uniquement par la lecture textuelle. Cela sera indiqué par la propriété accessModeSufficient avec la seule valeur "textual" et pas de valeur "visual" dans ce cas.</p>
+						<p>Enfin, la présence de textes alternatifs est explicitée par la propriété accessibilityFeature en </p>
+						<p>Pour plus de précisions, consultez la Charte technique au chapitre Métadonnées OPF, page 70 et suivantes.</p>
+							
+					</section>
+					<section class="docs-section" id="charte-3-2">
+						<h2>Métadonnées d’accessibilité ONIX</h2>
+						<p>Les métadonnées d’accessibilité doivent également être renseignées dans les canaux de diffusion/distribution pour permettre aux utilisateurs finaux de vérifier avant achat ou emprunt si l’ouvrage est adapté à ses besoins spécifiques d’accessibilité. Les sites de mise à disposition de livres numériques peuvent ainsi exploiter ces informations d’accessibilité transmises par les éditeurs-diffuseurs pour informer au mieux et préciser les caractéristiques détaillées d’accessibilité de chaque article.</p>
+						<p>Sans ces informations, l’utilisateur n’a aucun moyen de distinguer les livres numériques accessibles de ceux qui ne le sont pas.</p>
+						<p><a href="https://www.editeur.org/83/Overview/" class="theme-link" target="_blank">ONIX</a> est le standard le plus utilisé pour véhiculer les informations dans les canaux de diffusion-distribution. La version à utiliser aujourd’hui est ONIX 3.0. Les métadonnées d’accessibilité sont à décrire au sein du bloc XML &lt;DescriptiveDetail&gt; qui sert à la description de l’ouvrage (contenant notamment le titre, les auteurs, etc.). Au sein de ce bloc, une fonctionnalité d’accessibilité correspond à un bloc &lt;ProductFormFeature&gt;, contenant dans la majorité des cas une paire de deux éléments :</p>
+						<ul>
+							<li>&lt;ProductFormFeatureType&gt; avec une valeur <a href="https://ns.editeur.org/onix/fr/79/09" class="theme-link" target="_blank">09</a>, indique que la propriété décrite ensuite relève de l’accessibilité (pour plus de détails, se référer à <a href="https://ns.editeur.org/onix/fr/79" class="theme-link" target="_blank">la liste des valeurs 79 du standard ONIX</a></li>
+							<li>&lt;ProductFormFeatureValue&gt;, avec des différentes valeurs tirées de <a href="https://ns.editeur.org/onix/fr/196" class="theme-link" target="_blank">la liste ONIX n° 196</a> définit des caractéristiques détaillées d’accessibilité.</li>
+						</ul>
+						<p>Les textes alternatifs courts et les textes longs font partie des propriétés d’accessibilité à expliciter dans ONIX. Pour les textes alternatifs courts, la <a href="https://ns.editeur.org/onix/fr/196/14" class="theme-link" target="_blank">valeur 14</a> est à indiquer comme valeur de l’élément &lt;ProductFormFeatureValue&gt;. La <a href="https://ns.editeur.org/onix/fr/196/15" class="theme-link" target="_blank">valeur 15</a> correspond aux textes longs. Si une publication possède des graphiques dont les données sont fournies sous forme textuelle ou tabulaire, la <a href="https://ns.editeur.org/onix/fr/196/16" class="theme-link" target="_blank">valeur 16</a> pourra également être indiquée.</p>
+
+					
+					</section>
+					
+				</article>
+				<article class="docs-article" id="charte-4">
+					<header class="docs-header">
+						<h1 class="docs-heading">Comment contrôler la bonne intégration des textes alternatifs dans les EPUBs ? </h1>
+					</header>
+					<p>Comme tous les EPUBs, les EPUBs accessibles doivent faire l’objet d’un contrôle qualité à leur réception, après leur commande et avant leur distribution.</p>
+					<p>Dans le cas d’EPUBs contenant des images informatives, deux contrôles qualité spécifiques sont nécessaires :</p>
+					<ul>
+						<li>le contrôle de la bonne intégration des textes alternatifs courts et longs,</li>
+						<li>le contrôle des métadonnées d’accessibilité liées à la mise en accessibilité des images.</li>
+					</ul>
+					<p>Deux outils peuvent servir au contrôle qualité : Ace (<a href="https://inclusivepublishing.org/toolbox/accessibility-checker" class="theme-link" target="_blank">Accessibility Checker développé par Daisy</a> ) et Thorium (le système de lecture d’EPUB développé par EdrLab).</p>
+
+
+					<section class="docs-section" id="charte-4-1">
+						<h2>Thorium</h2>
+						<p>Thorium est un système de lecture gratuit développé par EdrLab qui s’attache à supporter l’intégralité du standard EPUB et à être accessible.</p>
+						<p>Cette application de lecture libre et ouverte permet de se rendre compte de l’expérience utilisateur. Il permettra de tester le rendu visuel des descriptions longues et d’écouter les textes alternatifs couts et longs.</p>							
+					</section>
+
+					<section class="docs-section" id="charte-4-2">
+						<h2>Ace</h2>
+						<p>Ace est un outil gratuit de contrôle qualité des EPUB. Son rapport affiche (entre autres choses) les métadonnées de l’EPUB (onglet Métadonnées) et les textes alternatifs associés aux images (onglet Images).</p>
+						<p>Le dernier onglet « Images »du rapport Ace sert à vérifier : </p>
+
+						<ul>
+							<li>La liste des images présentes dans le fichier et leur statut : décrites ou non</li>
+							<li>La correspondance entre l’image et le texte alternatif renseigné</li>
+							<li>Le respect du calibrage pour la zone de texte alternatif court</li>
+						</ul>
+						<p>NB : le fichier Excel contenant les textes alternatifs à intégrer servira de référence pour cette phase de contrôle.</p>
+						<p><img class="figure-img img-fluid shadow rounded" src="assets/charte-image/ace_rapport.png" alt="Exemple d'un rapport Ace" /></p>
+					</section>
+					
+				</article>
+				<article class="docs-article" id="charte-5">
+					<header class="docs-header">
+						<h1 class="docs-heading">Comment contrôler les métadonnées d’accessibilité des images ?</h1>
+					</header>
+					
+					<section class="docs-section" id="charte-5-1">
+						<h2>Ace</h2>
+						<p>L’onglet « Metadata » du rapport Ace affiche les métadonnées d’accessibilité, dont celles des images dans le langage Schema.org </p>
+						<p>Il s’agira de s’assurer que les deux propriétés Schema sont présentes :</p>
+						<ul><li>schema:accessModeSufficient = textual</li>
+						<li>schema:accessibilityFeature = alternativeText</li></ul>
+
+							
+					</section>
+
+				</article>
+				<article class="docs-article" id="charte-6">
+					<header class="docs-header">
+						<h1 class="docs-heading">Référentiels techniques</h1>
+					</header>
+					
+					<section class="docs-section" id="charte-6-1">
+						<h2>WCAG</h2>
+						<p>Des travaux préliminaires ont permis de déterminer que les normes WCAG répondent aux exigences de la Directive Accessibilité.</p>
+						<p>Les normes d’accessibilité du contenu Web (WCAG ou Web Content Accessibility Guidelines en anglais) sont un standard défini par <p>le W3C afin de garantir l’accès aux contenus traités par les technologies web aux personnes empêchées.</p>
+						Pour que les publications EPUB puissent être qualifiées d’accessibles selon les normes du W3C, elles doivent a minima atteindre le niveau de conformité A, sachant que le niveau AA est très fortement recommandé. <a href="https://www.w3.org/TR/epub-a11y-11/#sec-wcag-conf" class="theme-link" target="_blank">Source</a> </p>
+						<p>Traduction française : <a href="http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm" class="theme-link" target="_blank">http://www.edrlab.org/public/sne/TAE_HTML_V3/Techniques_d_Accessibilite_EPUB%201.0.htm</a> </p>
+
+
+							
+					</section>
+
+					<section class="docs-section" id="charte-6-2">
+						<h2>Standards d’accessibilité EPUB</h2>
+						<p><ul>
+						<li><a href="https://www.w3.org/TR/epub-a11y-11/" class="theme-link" target="_blank">1. EPUB Accessibility 1.1</a> (8 sept 2022, Candidate Recommandation Draft)</li>
+						<li><a href="https://www.w3.org/TR/epub-a11y-11" class="theme-link" target="_blank">2. EPUB Accessibility Techniques 1.1</a> (13 sept 2022, Group Note)</li>
+						<li><a href="https://w3c.github.io/epub-specs/epub33/fxl-a11y/" class="theme-link" target="_blank">3. EPUB Fixed Layout Accessibility</a> (14 sept 2022, Editor’s Draft)  </li>
+						<li><a href="https://www.w3.org/TR/WCAG22" class="theme-link" target="_blank">4. Web Content Accessibility Guidelines (WCAG) 2.2</a> (6 sept 2022, Candidate Recommandation Snapshot)</li>
+						<li><a href="https://www.w3.org/TR/dpub-aria-1.1" class="theme-link" target="_blank">5. Digital Publishing WAI-ARIA Module 1.1</a> (30 mai 2022, Working Draft)</li>
+						<li><a href="https://w3c.github.io/publ-a11y/UX-Guide-Metadata/draft/principles" class="theme-link" target="_blank">6. User Experience Guide for Displaying Accessibility Metadata 1.0</a> (1er sept 2022, Draft Community Group Report)</li>
+						<li><a href="https://w3c.github.io/a11y-discov-vocab/crosswalk" class="theme-link" target="_blank">7. Schema.org Accessibility Properties Crosswalk</a> (10 juin 2022, Final Community Group Report)</li>
+
+					</ul></p>
+
+
+							
+					</section>
+
+				</article>
+				<article class="docs-article" id="charte-7">
+					<header class="docs-header">
+						<h1 class="docs-heading">Ressources </h1>
+					</header>
+					
+					<section class="docs-section" id="charte-7-1">
+						<h2>Comment décrire les images ? </h2>
+						<p>Adaptation française du Guide « Image Description Guidelines » du DIAGRAM Center Traduction par Braillenet :
+ 							<a href="https://github.com/benetech/AccessibleImageSampleBook/blob/master/AccessibleImageSampleBookFrench/DIAGRAM_Image-Description-Guidelines_FR.docx" class="theme-link" target="_blank">https://github.com/benetech/AccessibleImageSampleBook/blob/master/AccessibleImageSampleBookFrench/DIAGRAM_Image-Description-Guidelines_FR.docx</a>
+						</p>
+					</section>
+					<section class="docs-section" id="charte-7-2">
+						<h2>The Art and Science of Describing Images </h2>
+						<p>Cycle de conférences organisées par le Daisy Consortium (vidéos en anglais)
+ 							<a href="https://daisy.org/news-events/articles/art-science-describing-images-w/" class="theme-link" target="_blank">https://daisy.org/news-events/articles/art-science-describing-images-w/</a>
+						</p>
+
+							
+					</section>
+
+					
+				</article>
+				<article class="docs-article" id="charte-8">
+					<header class="docs-header">
+						<h1 class="docs-heading">Annexes </h1>
+					</header>
+					
+					<section class="docs-section" id="charte-8-1">
+						<h2>Annexe 1 : Extraits de la Directive concernant les textes alternatifs aux images </h2>
+						<p><b>Annexe I/Section I/1.Exigences relatives à la fourniture d’informations/b. Instructions… :</b></p>
+						<p> v) sont disponibles, en ce qui concerne leur contenu, dans des formats texte permettant de générer d’autres formats auxiliaires pouvant être présentés de différentes manières et par l’intermédiaire de plusieurs canaux sensoriels;
+						</p>
+						<p> vi) sont accompagnées d’une présentation de substitution de tout contenu non textuel;
+						</p>
+						<p><b>Annexe I/Section IV/f. pour les livres numériques :</b></p>
+						<p> Iv) permettre des restitutions alternatives du contenu et son interopérabilité avec diverses technologies d’assistance, de manière à ce qu’il soit perceptible, utilisable, compréhensible et robuste;
+						</p>
+						<p><b>Annexe II/Section III/EXIGENCES ÉNONCÉES À LA SECTION III DE L’ANNEXE I/Fourniture de service/b :</b></p>
+						<p> i) Fournir des fichiers électroniques pouvant être lus par un ordinateur au moyen d’un logiciel de lecture d’écran pour que les personnes aveugles puissent utiliser les informations.
+						</p>
+						<p> v) Faire en sorte que le texte puisse être lu par des personnes atteintes de déficience visuelle.
+						</p>
+						<p> vi) Doubler un diagramme d’une description textuelle précisant les principaux éléments ou décrivant les principales actions.
+						</p>
+						<p><b>Annexe II/Section III/EXIGENCES ÉNONCÉES À LA SECTION IV DE L’ANNEXE I/Services spécifiques/f :</b></p>
+						<p> v) Veiller à ce que les informations sur les caractéristiques d’accessibilité soient disponibles dans le fichier électronique, pour que les personnes handicapées puissent être informées.
+						</p>
+						
+
+							
+					</section>
+					<section class="docs-section" id="charte-8-2">
+						<h2>Annexe 2 : Tableau Excel </h2>
+
+					</section>
+
+					
+				</article>
+				
+				</div>
+			</div>
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+				        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+			            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+   
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>  
+    
+    
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="assets/plugins/highlight/highlight.min.js"></script>      
+	<script>hljs.highlightAll();</script>
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="assets/js/docs.js"></script> 
+	<script>
+        // Activer les tooltips
+        document.addEventListener('DOMContentLoaded', function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+		document.addEventListener("DOMContentLoaded", function () {
+			const sections = document.querySelectorAll(".docs-section, .docs-section3"); // Sélectionne toutes les sections
+			const navLinks = document.querySelectorAll(".docs-nav .nav-link");
+			const sidebar = document.querySelector("#docs-sidebar");
+
+			function onScroll() {
+				let scrollPosition = window.scrollY + 150; // Ajuste selon ton header
+
+				sections.forEach((section) => {
+					let sectionTop = section.offsetTop;
+					let sectionBottom = sectionTop + section.offsetHeight;
+
+					if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+						let id = section.getAttribute("id");
+
+						// Met à jour les liens actifs dans la nav
+						navLinks.forEach((link) => {
+							link.classList.remove("active");
+							if (link.getAttribute("href") === `#${id}`) {
+								link.classList.add("active");
+
+								// Scroll automatique de la nav pour afficher le lien actif
+								link.scrollIntoView({
+									behavior: "smooth",
+									block: "center"
+								});
+							}
+						});
+					}
+				});
+			}
+
+			window.addEventListener("scroll", onScroll);
+        });
+    </script>
+
+</body>
+</html> 
+
