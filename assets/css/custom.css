@@ -1,0 +1,10 @@
+.note {
+		padding: 1em;
+		border-width: 1px;
+		border-left: 10px;
+		border-style: solid;
+		border-color: midnightblue ;
+		background: lightsteelblue;
+		color: black;
+		overflow: auto;
+	}
