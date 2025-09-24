@@ -299,10 +299,14 @@
 						<section class="docs-section3" id="charte-2-2-1">
 							<h3 class="section-heading3">Absence volontaire de texte alternatif</h3>
 							<p>Cela sert à signaler les images décoratives qui doivent être ignorées par les technologies d’assistance. <br />
-								L’attribut @alt sur &lt;img&gt; est présent mais vide.</p>
+								<ul>
+									<li>L’attribut @alt sur &lt;img&gt; est présent mais vide.</li>
+									<li>L'attribut @role sur &lt;img&gt; est présent avec la valeur "presentation".</li>
+								</ul>
+								</p>
 							<p>Par exemple : </p>
 							<div class="docs-code-block">
-								<pre class="shadow-lg rounded"><code class="html hljs">&lt;img src="image.jpg" alt=""&gt;&lt;/&gt;</code></pre>
+								<pre class="shadow-lg rounded"><code class="html hljs">&lt;img src="image.jpg" alt="" role="presentation"&gt;&lt;/&gt;</code></pre>
 							</div>
 
 							</p>
