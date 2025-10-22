@@ -21,6 +21,7 @@
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<link id="theme-style" rel="stylesheet" href="assets/css/custom.css">
 	<style>
 		.tdcenter{
 			text-align: center; vertical-align: middle;
@@ -235,18 +236,20 @@
 						<section class="docs-section3" id="charte-1-4-3">
 							<h3 class="section-heading3">Alternative textuelle courte et longue </h3>
 							<p><b>Définition :</b></p>
-							<p>Pour les images informatives, la fourniture d’un texte alternatif court est obligatoire. La fourniture d’un texte alternatif long complémentaire est facultative. Elle n’est requise que dans deux cas de figure :</p>
+							<p>Pour les images informatives, la fourniture d’un texte alternatif court est le plus souvent nécessaire car il sera lu précisément à la position de l'image qu'elle remplace. La fourniture d’un texte alternatif long complémentaire peut-être requise dans deux cas de figure :</p>
 							<ul>
-								<li>impossibilité de restituer toute l’information de manière concise comme l’exige fonctionnellement le texte court et de tenir dans la limite des <mark data-bs-toggle="tooltip" data-bs-title="Contrairement à ce que l’on peut lire sur le Web, ni les standards, ni Ace ne définissent de limite de nombre de caractères stricte pour le texte court. Seuls des ordres de grandeur sont donnés à titre indicatif, qui varient beaucoup d’un auteur à l’autre ou des outils de gestion de contenu (ex : 40, 60, 128, etc. caractères).">145 caractères</mark> imposée par certaines technologies d’assistance ;</li>
-								<li>inadéquation du texte brut au kilomètre pour structurer un contenu textuel alternatif, par exemple pour les graphiques comprenant de nombreuses données ou une carte géographique.  Cela garantit la prosodie de la synthèse vocale (qui a besoin d’un découpage en phrases/paragraphes pour fonctionner correctement).</li>
+								<li>l’information nécessite une description détaillée et ne peut pas être résumée brièvement ;</li>
+								<li>l'information nécessite d'être structurée avec des paragraphes, des titres, des listes ou des tableaux.</li>
 							</ul>
-							<p>Le contenu (et donc la longueur) des textes alternatifs courts/longs sont des choix éditoriaux qui dépendent principalement de trois critères :</p>
+							<p>Le contenu et la longueur de ces textes sont des choix éditoriaux qui dépendent principalement de trois critères :</p>
 							<ul>
-								<li>le contexte textuel (qui contient déjà une partie de l’information ou non) ;</li>
-								<li>la complexité de l’image à traiter ;</li>
-								<li>le public ciblé par la publication (par exemple enfants, professionnels, etc.).</li>
+								<li>le contexte textuel environnant (qui peut contenir une partie de l’information) ;</li>
+								<li>la complexité de l’image ;</li>
+								<li>le public ciblé par la publication (enfants, professionnels, etc.).</li>
 							</ul>
-
+		<aside class="callout-block callout-block-info">                            
+		      <i class="fas fa-info-circle"></i> Ni les standards, ni Ace ne définissent de limite de nombre de caractères pour le texte court. Il n'y a pas non plus de barrière technique à la quantité de texte alternatif qu'une technologie d’assistance peut lire. Néanmoins, ces dernières peuvent mettre en pause la lecture après un certain nombre de caractères pour ne pas alourdir l’expérience de lecture. La personne peut relancer cette lecture avec une action au clavier et peut aussi paramétrer cette limite dans les préférences. En 2025, la pause la plus rapide connue intervient après 125 caractères.
+		</aside>
 						</section>
 						<section class="docs-section3" id="charte-1-4-4">
 							<h3 class="section-heading3">Quand un texte alternatif long est nécessaire ? Quelles questions se poser ?</h3>
@@ -299,10 +302,14 @@
 						<section class="docs-section3" id="charte-2-2-1">
 							<h3 class="section-heading3">Absence volontaire de texte alternatif</h3>
 							<p>Cela sert à signaler les images décoratives qui doivent être ignorées par les technologies d’assistance. <br />
-								L’attribut @alt sur &lt;img&gt; est présent mais vide.</p>
+								<ul>
+									<li>L’attribut @alt sur &lt;img&gt; est présent mais vide.</li>
+									<li>L'attribut @role sur &lt;img&gt; est présent avec la valeur "presentation".</li>
+								</ul>
+								</p>
 							<p>Par exemple : </p>
 							<div class="docs-code-block">
-								<pre class="shadow-lg rounded"><code class="html hljs">&lt;img src="image.jpg" alt=""&gt;&lt;/&gt;</code></pre>
+								<pre class="shadow-lg rounded"><code class="html hljs">&lt;img src="image.jpg" alt="" role="presentation"&gt;&lt;/&gt;</code></pre>
 							</div>
 
 							</p>
